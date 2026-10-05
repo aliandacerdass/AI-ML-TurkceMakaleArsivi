@@ -4,3 +4,4 @@ tarih,durum,makale_sayisi,hata
 2026-10-02,basarili,5,
 2026-10-03,basarili,3,
 2026-10-04,basarili,1,
+2026-10-05,hata,0,"export.arxiv.org HTTP 429 (script ve WebFetch yedek yolu basarisiz)"
