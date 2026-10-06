@@ -9,3 +9,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2609.34563,2026-10-02,Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence,cs.LG,206,ozetler/2026/10/2026-10-02.md
 2609.39102,2026-10-02,False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents,cs.AI;cs.LG,190,ozetler/2026/10/2026-10-02.md
 2609.38288,2026-10-02,AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks,cs.AI,120,ozetler/2026/10/2026-10-02.md
+2610.01780,2026-10-06,RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations,cs.AI,255,ozetler/2026/10/2026-10-06.md
+2609.38879,2026-10-06,Does Learning Protein Folding Generalize to Broader Reasoning?,cs.LG;cs.AI,98,ozetler/2026/10/2026-10-06.md
+2610.02826,2026-10-06,Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite,cs.AI,83,ozetler/2026/10/2026-10-06.md
+2609.36659,2026-10-06,On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training,cs.LG,77,ozetler/2026/10/2026-10-06.md

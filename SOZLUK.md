@@ -58,6 +58,7 @@
 | supervised learning | denetimli öğrenme | |
 | token | token (simge) | |
 | training | eğitim | |
+| trajectory | iz | Ajanın bir görevdeki adım dizisi |
 | transformer | transformer | Çevrilmez |
 | unsupervised learning | denetimsiz öğrenme | |
 | vision-language model (VLM) | görü-dil modeli | |
