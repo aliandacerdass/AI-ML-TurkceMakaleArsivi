@@ -8,9 +8,11 @@
 | agent | ajan | |
 | alignment | hizalama | Modelin insan niyet/değerleriyle uyumu |
 | attention | dikkat (mekanizması) | |
+| autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
 | benchmark | kıyaslama testi | İlk geçişte; sonra "benchmark" da kullanılabilir |
 | chain-of-thought | düşünce zinciri | |
 | context window | bağlam penceresi | |
+| counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
 | dataset | veri seti | |
 | demonstration | gösterim | Robotikte öğretici örnek |
 | diffusion model | difüzyon modeli | |
@@ -56,6 +58,7 @@
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | state of the art (SOTA) | en ileri düzey | |
 | supervised learning | denetimli öğrenme | |
+| sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | token | token (simge) | |
 | training | eğitim | |
 | trajectory | iz | Ajanın bir görevdeki adım dizisi |
