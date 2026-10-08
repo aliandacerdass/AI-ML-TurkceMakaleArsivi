@@ -54,12 +54,14 @@
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
 | reward model | ödül modeli | |
+| rollout | yanıt üretimi | Pekiştirmeli öğrenmede modelin örnek çıktı üretmesi |
 | scaling law | ölçekleme yasası | |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | state of the art (SOTA) | en ileri düzey | |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | token | token (simge) | |
+| tokenizer | token ayrıştırıcı (*tokenizer*) | Metni token'lara bölen bileşen |
 | training | eğitim | |
 | trajectory | iz | Ajanın bir görevdeki adım dizisi |
 | transformer | transformer | Çevrilmez |

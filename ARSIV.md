@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [8 Ekim 2026](ozetler/2026/10/2026-10-08.md) · Günlük · 4 makale
 - [7 Ekim 2026](ozetler/2026/10/2026-10-07.md) · Günlük · 4 makale
 - [6 Ekim 2026](ozetler/2026/10/2026-10-06.md) · Günlük · 4 makale
 - [4 Ekim 2026](ozetler/2026/10/2026-10-04.md) · Derin okuma · Derin Okuma: Raven: The Harness of Harnesses for Composable Agentic Intelligence

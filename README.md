@@ -5,6 +5,7 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [8 Ekim 2026](ozetler/2026/10/2026-10-08.md) · Günlük · 4 makale
 - [7 Ekim 2026](ozetler/2026/10/2026-10-07.md) · Günlük · 4 makale
 - [6 Ekim 2026](ozetler/2026/10/2026-10-06.md) · Günlük · 4 makale
 - [4 Ekim 2026](ozetler/2026/10/2026-10-04.md) · Derin okuma · Derin Okuma: Raven: The Harness of Harnesses for Composable Agentic Intelligence
@@ -12,7 +13,7 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 - [2 Ekim 2026](ozetler/2026/10/2026-10-02.md) · Günlük · 5 makale
 - [1 Ekim 2026](ozetler/2026/10/2026-10-01.md) · Günlük · 5 makale
 
-Son başarılı çalışma: **7 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **8 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?

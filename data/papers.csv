@@ -17,3 +17,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.04198,2026-10-07,ALoDLM: Adaptively Looped Diffusion Language Models,cs.AI;cs.LG,60,ozetler/2026/10/2026-10-07.md
 2610.05162,2026-10-07,Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy,cs.AI,32,ozetler/2026/10/2026-10-07.md
 2610.04292,2026-10-07,LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures,cs.AI,29,ozetler/2026/10/2026-10-07.md
+2610.08448,2026-10-08,Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability,cs.AI,157,ozetler/2026/10/2026-10-08.md
+2610.07767,2026-10-08,TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models,cs.LG,82,ozetler/2026/10/2026-10-08.md
+2610.07753,2026-10-08,From Evidence to Action: How Tool-Using Agents Fail,cs.AI,35,ozetler/2026/10/2026-10-08.md
+2610.05140,2026-10-08,AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents,cs.AI,28,ozetler/2026/10/2026-10-08.md
