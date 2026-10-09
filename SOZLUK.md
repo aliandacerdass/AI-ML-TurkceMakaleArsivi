@@ -14,6 +14,7 @@
 | context window | bağlam penceresi | |
 | counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
 | dataset | veri seti | |
+| deception | aldatma | Ajanın doğru olmayan izlenim yaratması |
 | demonstration | gösterim | Robotikte öğretici örnek |
 | diffusion model | difüzyon modeli | |
 | directed acyclic graph (DAG) | yönlü döngüsüz çizge | Düğümler arası bağımlılık gösterimi |
@@ -34,8 +35,10 @@
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
 | latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
+| linear attention | doğrusal dikkat | Sabit boyutlu yinelemeli durum kullanan dikkat türü |
 | loss function | kayıp fonksiyonu | |
 | manipulation | nesne kavrama-taşıma | Robotikte |
+| memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
 | multi-agent system | çoklu ajan sistemi | |
 | multimodal | çok kipli | Metin + görüntü + ses gibi |
@@ -46,17 +49,21 @@
 | parameter | parametre | |
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
+| post-training quantization | eğitim sonrası nicemleme | Eğitim bittikten sonra uygulanan nicemleme |
 | power law | kuvvet yasası | |
 | pretraining | ön eğitim | |
 | prompt | istem (*prompt*) | |
 | quantization | nicemleme | |
 | reasoning | akıl yürütme | |
+| recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
+| reward | ödül | Pekiştirmeli öğrenmede başarı sinyali |
 | reward model | ödül modeli | |
 | rollout | yanıt üretimi | Pekiştirmeli öğrenmede modelin örnek çıktı üretmesi |
 | scaling law | ölçekleme yasası | |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
+| self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | state of the art (SOTA) | en ileri düzey | |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |

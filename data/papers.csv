@@ -21,3 +21,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.07767,2026-10-08,TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models,cs.LG,82,ozetler/2026/10/2026-10-08.md
 2610.07753,2026-10-08,From Evidence to Action: How Tool-Using Agents Fail,cs.AI,35,ozetler/2026/10/2026-10-08.md
 2610.05140,2026-10-08,AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents,cs.AI,28,ozetler/2026/10/2026-10-08.md
+2609.38169,2026-10-09,STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization,cs.AI;cs.LG,100,ozetler/2026/10/2026-10-09.md
+2610.08699,2026-10-09,nanoMuse: An Open-Source Personal Agent for Every Device You Own,cs.AI,86,ozetler/2026/10/2026-10-09.md
+2610.07967,2026-10-09,DecepEval: A Benchmark for Evaluating Deception in LLM Agents,cs.LG,66,ozetler/2026/10/2026-10-09.md
+2610.04299,2026-10-09,Questioning the Questions: Sustaining Self-Evolution in Reasoning Models,cs.LG;cs.AI,64,ozetler/2026/10/2026-10-09.md

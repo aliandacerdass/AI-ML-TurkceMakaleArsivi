@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [9 Ekim 2026](ozetler/2026/10/2026-10-09.md) · Günlük · 4 makale
 - [8 Ekim 2026](ozetler/2026/10/2026-10-08.md) · Günlük · 4 makale
 - [7 Ekim 2026](ozetler/2026/10/2026-10-07.md) · Günlük · 4 makale
 - [6 Ekim 2026](ozetler/2026/10/2026-10-06.md) · Günlük · 4 makale
