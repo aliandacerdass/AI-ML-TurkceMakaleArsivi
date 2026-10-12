@@ -25,3 +25,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.08699,2026-10-09,nanoMuse: An Open-Source Personal Agent for Every Device You Own,cs.AI,86,ozetler/2026/10/2026-10-09.md
 2610.07967,2026-10-09,DecepEval: A Benchmark for Evaluating Deception in LLM Agents,cs.LG,66,ozetler/2026/10/2026-10-09.md
 2610.04299,2026-10-09,Questioning the Questions: Sustaining Self-Evolution in Reasoning Models,cs.LG;cs.AI,64,ozetler/2026/10/2026-10-09.md
+2610.08215,2026-10-12,Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?,cs.AI,136,ozetler/2026/10/2026-10-12.md
+2610.09087,2026-10-12,U-Space: Uncovering When and Why Uncertainty Arises in Language Models,cs.AI;cs.LG,40,ozetler/2026/10/2026-10-12.md
+2610.11287,2026-10-12,REMORY: Learning Residual Memory for Context Compaction,cs.AI,38,ozetler/2026/10/2026-10-12.md
+2610.12327,2026-10-12,SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference,cs.LG,27,ozetler/2026/10/2026-10-12.md

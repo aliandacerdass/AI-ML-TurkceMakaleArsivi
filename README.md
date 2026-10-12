@@ -5,15 +5,15 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [12 Ekim 2026](ozetler/2026/10/2026-10-12.md) · Günlük · 4 makale
 - [11 Ekim 2026](ozetler/2026/10/2026-10-11.md) · Derin okuma · Derin Okuma: Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability
 - [10 Ekim 2026](ozetler/2026/10/2026-10-10.md) · Haftalık özet · Haftanın Özeti
 - [9 Ekim 2026](ozetler/2026/10/2026-10-09.md) · Günlük · 4 makale
 - [8 Ekim 2026](ozetler/2026/10/2026-10-08.md) · Günlük · 4 makale
 - [7 Ekim 2026](ozetler/2026/10/2026-10-07.md) · Günlük · 4 makale
 - [6 Ekim 2026](ozetler/2026/10/2026-10-06.md) · Günlük · 4 makale
-- [4 Ekim 2026](ozetler/2026/10/2026-10-04.md) · Derin okuma · Derin Okuma: Raven: The Harness of Harnesses for Composable Agentic Intelligence
 
-Son başarılı çalışma: **10 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **11 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?

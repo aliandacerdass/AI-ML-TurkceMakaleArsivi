@@ -11,6 +11,7 @@
 | autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
 | benchmark | kıyaslama testi | İlk geçişte; sonra "benchmark" da kullanılabilir |
 | chain-of-thought | düşünce zinciri | |
+| context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
 | context window | bağlam penceresi | |
 | counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
 | dataset | veri seti | |
@@ -30,6 +31,7 @@
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
+| interpretability | yorumlanabilirlik | Modelin iç işleyişini anlaşılır kılma |
 | KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
@@ -53,10 +55,12 @@
 | power law | kuvvet yasası | |
 | pretraining | ön eğitim | |
 | prompt | istem (*prompt*) | |
+| pruning | budama | Modelden önemsiz parametreleri çıkarma |
 | quantization | nicemleme | |
 | reasoning | akıl yürütme | |
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
+| residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
 | reward | ödül | Pekiştirmeli öğrenmede başarı sinyali |
 | reward model | ödül modeli | |
@@ -72,6 +76,7 @@
 | training | eğitim | |
 | trajectory | iz | Ajanın bir görevdeki adım dizisi |
 | transformer | transformer | Çevrilmez |
+| uncertainty | belirsizlik | Modelin cevabından ne kadar emin olduğu |
 | unsupervised learning | denetimsiz öğrenme | |
 | vision-language model (VLM) | görü-dil modeli | |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |
