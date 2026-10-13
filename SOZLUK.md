@@ -10,9 +10,11 @@
 | attention | dikkat (mekanizması) | |
 | autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
 | benchmark | kıyaslama testi | İlk geçişte; sonra "benchmark" da kullanılabilir |
+| causal intervention | nedensel müdahale | Bir iç bileşeni değiştirip çıktıya etkisini ölçme |
 | chain-of-thought | düşünce zinciri | |
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
 | context window | bağlam penceresi | |
+| continual learning | sürekli öğrenme | Yeni görevleri sırayla öğrenirken eskileri korumaya çalışma |
 | counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
 | dataset | veri seti | |
 | deception | aldatma | Ajanın doğru olmayan izlenim yaratması |
@@ -24,6 +26,7 @@
 | encoder / decoder | kodlayıcı / kod çözücü | |
 | evaluation | değerlendirme | |
 | fine-tuning | ince ayar | |
+| forgetting | unutma | Yeni öğrenirken eski bilginin kaybolması |
 | foundation model | temel model | |
 | generalization | genelleme | |
 | gradient | gradyan | |
@@ -69,6 +72,7 @@
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | state of the art (SOTA) | en ileri düzey | |
+| subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | token | token (simge) | |
@@ -76,6 +80,7 @@
 | training | eğitim | |
 | trajectory | iz | Ajanın bir görevdeki adım dizisi |
 | transformer | transformer | Çevrilmez |
+| trust region | güven bölgesi | Güncellemenin eski çözümden fazla uzaklaşmasını sınırlama |
 | uncertainty | belirsizlik | Modelin cevabından ne kadar emin olduğu |
 | unsupervised learning | denetimsiz öğrenme | |
 | vision-language model (VLM) | görü-dil modeli | |

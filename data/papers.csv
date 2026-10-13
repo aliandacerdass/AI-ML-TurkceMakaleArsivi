@@ -29,3 +29,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.09087,2026-10-12,U-Space: Uncovering When and Why Uncertainty Arises in Language Models,cs.AI;cs.LG,40,ozetler/2026/10/2026-10-12.md
 2610.11287,2026-10-12,REMORY: Learning Residual Memory for Context Compaction,cs.AI,38,ozetler/2026/10/2026-10-12.md
 2610.12327,2026-10-12,SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference,cs.LG,27,ozetler/2026/10/2026-10-12.md
+2610.12572,2026-10-13,"DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",cs.LG,232,ozetler/2026/10/2026-10-13.md
+2610.13527,2026-10-13,S-Space: Exploring Spatial Workspace in Multimodal Language Models,cs.LG,202,ozetler/2026/10/2026-10-13.md
+2610.13021,2026-10-13,EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents,cs.AI,63,ozetler/2026/10/2026-10-13.md
+2610.13113,2026-10-13,Continually Post-training Small Models via Synthetic Self-distillation,cs.LG;cs.AI,41,ozetler/2026/10/2026-10-13.md
