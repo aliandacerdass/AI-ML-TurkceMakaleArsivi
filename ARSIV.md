@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [17 Ekim 2026](ozetler/2026/10/2026-10-17.md) · Haftalık özet · Haftanın Özeti
 - [13 Ekim 2026](ozetler/2026/10/2026-10-13.md) · Günlük · 4 makale
 - [12 Ekim 2026](ozetler/2026/10/2026-10-12.md) · Günlük · 4 makale
 - [11 Ekim 2026](ozetler/2026/10/2026-10-11.md) · Derin okuma · Derin Okuma: Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability
