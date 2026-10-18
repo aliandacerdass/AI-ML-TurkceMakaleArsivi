@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [18 Ekim 2026](ozetler/2026/10/2026-10-18.md) · Derin okuma · Derin Okuma: S-Space: Exploring Spatial Workspace in Multimodal Language Models
 - [17 Ekim 2026](ozetler/2026/10/2026-10-17.md) · Haftalık özet · Haftanın Özeti
 - [13 Ekim 2026](ozetler/2026/10/2026-10-13.md) · Günlük · 4 makale
 - [12 Ekim 2026](ozetler/2026/10/2026-10-12.md) · Günlük · 4 makale
