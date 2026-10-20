@@ -33,3 +33,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.13527,2026-10-13,S-Space: Exploring Spatial Workspace in Multimodal Language Models,cs.LG,202,ozetler/2026/10/2026-10-13.md
 2610.13021,2026-10-13,EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents,cs.AI,63,ozetler/2026/10/2026-10-13.md
 2610.13113,2026-10-13,Continually Post-training Small Models via Synthetic Self-distillation,cs.LG;cs.AI,41,ozetler/2026/10/2026-10-13.md
+2610.22471,2026-10-20,Has GPT-6-Astra Achieved Embodied Intelligence?,cs.LG,367,ozetler/2026/10/2026-10-20.md
+2610.20951,2026-10-20,LEV: Thinking Fast and Deep with Looped Decision Models,cs.AI;cs.LG,249,ozetler/2026/10/2026-10-20.md
+2610.21046,2026-10-20,PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews,cs.AI;cs.LG,141,ozetler/2026/10/2026-10-20.md
+2610.19159,2026-10-20,Into the Unknown: Benchmarking AI agents on open scientific research problems,cs.AI;cs.LG,134,ozetler/2026/10/2026-10-20.md
+2610.18784,2026-10-20,"Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",cs.AI,103,ozetler/2026/10/2026-10-20.md

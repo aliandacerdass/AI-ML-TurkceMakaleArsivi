@@ -20,3 +20,4 @@ tarih,durum,makale_sayisi,hata
 2026-10-18,basarili,1,
 2026-10-19,hata,0,"arXiv API HTTP 429 (Rate exceeded); script ve WebFetch yedek yolu basarisiz"
 2026-10-20,hata,0,"arXiv API HTTP 429 (Rate exceeded); script ve WebFetch yedek yolu basarisiz"
+2026-10-20,basarili,5,
