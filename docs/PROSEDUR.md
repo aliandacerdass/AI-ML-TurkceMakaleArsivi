@@ -32,7 +32,7 @@ TZ=Europe/Istanbul date +%u   # 1-5 hafta içi, 6 cumartesi, 7 pazar
 python scripts/fetch_candidates.py --date $TARIH
 ```
 
-Script, HF Daily Papers'ın bir önceki gününü çeker (06:00'da o günün listesi henüz dolmamış olur), arXiv API'den metadata'yı tamamlar ve `data/raw/$TARIH.json`'u yazar. Sıfırdan farklı kodla çıkarsa **bir kez** tekrar dene. Yine başarısızsa aşağıdaki yedek yolu dene.
+Script, HF Daily Papers'ın bir önceki gününü çeker (06:00'da o günün listesi henüz dolmamış olur), arXiv API'den metadata'yı tamamlar ve `data/raw/$TARIH.json`'u yazar. API 429/503 verirse script kendisi metni HF'den, kategorileri arxiv.org liste sayfalarından alır (`sources`'a `arxiv-liste` eklenir); bu normaldir, hata sayılmaz. Sıfırdan farklı kodla çıkarsa **bir kez** tekrar dene. Yine başarısızsa aşağıdaki yedek yolu dene.
 
 **Yedek yol (WebFetch):** Ortam shell üzerinden arXiv/Hugging Face'e erişemiyorsa (bağlantı reddi, proxy hatası, DNS hatası):
 1. WebFetch ile `https://huggingface.co/api/daily_papers?date=<önceki gün>` adresini çek. Her makale için `paper.id` ve `paper.upvotes` değerlerini al.

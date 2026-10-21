@@ -2,12 +2,14 @@
 
 Kaynak 1: Hugging Face Daily Papers (upvote sinyali)
 Kaynak 2: arXiv API (kategori, abstract, yazarlar) — HF yetersizse arXiv RSS yedek
+          API 429/503 verirse: metin HF'den, kategori arXiv liste sayfalarından
 
 Not: Görev 06:00 (Europe/Istanbul) çalışır. O saatte HF'nin "bugün" listesi
 henüz dolmamıştır, bu yüzden varsayılan HF tarihi bir önceki gündür.
 """
 import argparse
 import json
+import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -25,8 +27,10 @@ SEEN_FILE = ROOT / "data" / "seen.json"
 HF_URL = "https://huggingface.co/api/daily_papers"
 ARXIV_API = "https://export.arxiv.org/api/query"
 RSS_URLS = ["https://rss.arxiv.org/rss/cs.LG", "https://rss.arxiv.org/rss/cs.AI"]
+LIST_URL = "https://arxiv.org/list/{}/pastweek"  # son 5 duyuru günü (yeni + cross-list)
 TARGET_CATS = {"cs.LG", "cs.AI"}
 ARXIV_DELAY = 3  # arXiv kuralı: istekler arası en az 3 sn
+CRAWL_DELAY = 15  # arxiv.org/robots.txt
 MIN_CANDIDATES = 5
 MAX_HF_LOOKBACK = 3  # HF yetersizse en fazla kaç gün geriye bakılır
 HEADERS = {"User-Agent": "arxiv-turkce-gunluk/1.0 (github.com/aliandacerdass)"}
@@ -54,11 +58,7 @@ def get(url, params=None, retries=3):
 
 def fetch_hf(day):
     r = get(HF_URL, params={"date": day.isoformat()})
-    out = {}
-    for item in r.json():
-        p = item["paper"]
-        out[p["id"]] = p.get("upvotes", 0)
-    return out
+    return {item["paper"]["id"]: item["paper"] for item in r.json()}
 
 
 def fetch_arxiv_meta(ids):
@@ -85,6 +85,40 @@ def fetch_arxiv_meta(ids):
                 "abstract": " ".join(e.findtext("a:summary", "", ATOM).split()),
                 "url": f"https://arxiv.org/abs/{aid}",
             }
+    return meta
+
+
+def fetch_listing_categories():
+    """arXiv liste sayfalarından ID → kategoriler. Bulut IP'leri API'de 429 yerken arxiv.org çalışıyor."""
+    cats = {}
+    for i, cat in enumerate(sorted(TARGET_CATS)):
+        if i:
+            time.sleep(CRAWL_DELAY)
+        html = get(LIST_URL.format(cat), params={"skip": 0, "show": 2000}).text
+        for block in html.split("<dt>")[1:]:
+            aid = re.search(r'id="(\d{4}\.\d{4,5})"', block)
+            subj = re.search(r"list-subjects'>(.*?)</div>", block, re.S)
+            if aid and subj:
+                cats[aid.group(1)] = re.findall(r"\(([a-z-]+(?:\.[A-Za-z-]+)?)\)", subj.group(1))
+    if not cats:
+        raise FetchError(f"{LIST_URL} → liste sayfası çözümlenemedi")
+    return cats
+
+
+def meta_from_hf(papers, listing):
+    """HF metni + liste kategorileri. Listede olmayan (1 haftadan eski) makaleler atlanır."""
+    meta = {}
+    for aid, p in papers.items():
+        if aid not in listing:
+            continue
+        meta[aid] = {
+            "arxiv_id": aid,
+            "title": " ".join(p["title"].split()),
+            "authors": [" ".join(a["name"].split()) for a in p.get("authors", [])],
+            "categories": listing[aid],
+            "abstract": " ".join(p.get("summary", "").split()),
+            "url": f"https://arxiv.org/abs/{aid}",
+        }
     return meta
 
 
@@ -123,22 +157,32 @@ def main():
         # 1) HF: hedef sayıya ulaşana kadar en fazla MAX_HF_LOOKBACK gün geriye git
         upvotes, hf_dates = {}, []
         candidates = {}
+        sources = ["huggingface"]
+        listing = None  # arXiv API başarısız olunca doldurulur, sonraki günlerde API denenmez
         for back in range(MAX_HF_LOOKBACK):
             d = hf_day - timedelta(days=back)
-            new = {k: v for k, v in fetch_hf(d).items() if k not in seen and k not in upvotes}
+            new = {k: p for k, p in fetch_hf(d).items() if k not in seen and k not in upvotes}
             hf_dates.append(d.isoformat())
             if not new:
                 continue
-            upvotes.update(new)
+            upvotes.update({k: p.get("upvotes", 0) for k, p in new.items()})
             time.sleep(ARXIV_DELAY)
-            for aid, m in fetch_arxiv_meta(new).items():
+            if listing is None:
+                try:
+                    meta = fetch_arxiv_meta(new)
+                except FetchError as e:
+                    print(f"UYARI: arXiv API kullanılamadı ({e}); liste sayfalarına geçiliyor", file=sys.stderr)
+                    listing = fetch_listing_categories()
+                    sources.append("arxiv-liste")
+            if listing is not None:
+                meta = meta_from_hf(new, listing)
+            for aid, m in meta.items():
                 if TARGET_CATS & set(m["categories"]):
                     candidates[aid] = {**m, "hf_upvotes": upvotes.get(aid), "source": "huggingface"}
             if len(candidates) >= MIN_CANDIDATES:
                 break
 
         # 2) Yedek: arXiv RSS
-        sources = ["huggingface"]
         if len(candidates) < MIN_CANDIDATES:
             sources.append("arxiv-rss")
             for aid, m in fetch_rss().items():
