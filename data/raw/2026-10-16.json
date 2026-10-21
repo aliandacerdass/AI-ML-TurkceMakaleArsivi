@@ -1,0 +1,802 @@
+{
+  "run_date": "2026-10-16",
+  "hf_dates": [
+    "2026-10-15"
+  ],
+  "sources": [
+    "huggingface"
+  ],
+  "fetched_at": "2026-10-21T16:45:45+03:00",
+  "papers": [
+    {
+      "arxiv_id": "2610.20584",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "authors": [
+        "Mingyu Ouyang",
+        "Yiran Wang",
+        "Siyuan Hu",
+        "Xingyilang Yin",
+        "Huiqiang Sun",
+        "Guangzhi Wang",
+        "Junfu Pu",
+        "Cheng Cheng",
+        "Honghao Chen",
+        "Ying Shan",
+        "Mike Zheng Shou",
+        "Hwee Tou Ng"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic experience. We extend the computer-use action space with relative pointer motion, sustained inputs, and composite actions. For supervised initialization, we fine-tune computer-use models on 6,044 curated gameplay trajectories that pair recorded actions with task instructions and visual reasoning. We construct Player-1-Gym, sixteen synthetic 2D and 3D environments designed around control demands shared across games. Programmatically verifiable rewards and randomized observations and control dynamics support multi-environment reinforcement learning with PPO. The resulting Player-1-9B and Player-1-35B-A3B improve MineDojo-300 success over their SFT policies by 27.8 and 17.7 percentage points, respectively. Player-1-9B reaches 38.33% success compared with 12.63% for the strongest evaluated baseline, with further gains over SFT on ViZDoom-10 and GameWorld. Further analyses show that broader synthetic environment coverage improves transfer, while the use of composite actions that combine multiple keyboard and mouse inputs increases during RL. We demonstrate that learning from synthetic experience substantially improves game control beyond supervised initialization, with gains that generalize beyond the RL training suite.",
+      "url": "https://arxiv.org/abs/2610.20584",
+      "hf_upvotes": 347,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.13521",
+      "title": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+      "authors": [
+        "Shi-Yu Tian",
+        "Yong Liu",
+        "Ximan Liu",
+        "Tianrui Zhu",
+        "Sule Bai",
+        "Xinwei Yang",
+        "Ruiqi Liu",
+        "Kun-Yang Yu",
+        "Ming Yang",
+        "Zhi Zhou",
+        "Yu-Feng Li",
+        "Yipeng Sun",
+        "Simiu Gu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teachers differ substantially in response style and domain expertise, supervision that is effective in isolation may still lead to persistent gradient conflicts and capability degradation during joint optimization. To address this challenge, we propose Cross-Teacher Guarding for MOPD (Road MOPD), which introduces non-routed teachers as auxiliary cross-domain critics on the same student trajectories and coordinates multi-teacher supervision through token-level credit assignment and gradient updates. Specifically, cross-teacher-guided credit assignment uses teacher agreement to strengthen token-level corrections jointly supported by the teachers and attenuate conflicting signals; preventive multi-teacher gradient projection uses auxiliary gradients from the same trajectories to constrain potentially conflicting updates and adaptively controls projection strength to retain target-domain learning signals. In experiments, Road MOPD mitigates degradation in the disadvantaged domain, gains over 5 percentage points under high conflict, and improves overall performance in low-conflict and three-domain settings.",
+      "url": "https://arxiv.org/abs/2610.13521",
+      "hf_upvotes": 251,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20344",
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "authors": [
+        "Yuyao Ge",
+        "Shenghua Liu",
+        "Peizhong Gao",
+        "Chendi Ge",
+        "Chenxu Liu",
+        "Yiwei Wang",
+        "Lingrui Mei",
+        "Baolong Bi",
+        "Jiayu Yao",
+        "Jiafeng Guo",
+        "Xueqi Cheng"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside a fixed builder harness receives an interface-only contract skeleton and a development document that consolidates behavior across twelve frontier harnesses, and then constructs a complete candidate harness in an isolated container. In Stage 2, the frozen candidate harness runs in containers separate from the construction environment, one per test case, and is driven end to end by a scripted mock model. We score each test case using four observable channels, namely the requests sent to the model, the files on disk, the process exit code, and the command output; positive controls rule out vacuous passes. Across nineteen frontier models, each evaluated with three independent builds on 328 test cases, GPT-6 Astra achieves the highest pass rate at 53.05%, while the weakest model reaches 27.44%, a gap of roughly twenty-six percentage points. Even the strongest model fails nearly half of the test cases, and failures cluster around how cross-cutting functionality is split across modules. To our knowledge, Doc2Harness provides the first deterministic benchmark for measuring long-horizon harness engineering.",
+      "url": "https://arxiv.org/abs/2610.20344",
+      "hf_upvotes": 110,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19789",
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "authors": [
+        "Linhao Zhong",
+        "Bozhen Fang",
+        "Xuehao Wang",
+        "Duochao Shi",
+        "Zekai Luo",
+        "Guangming Yao",
+        "Yi Yuan",
+        "Hao Chen",
+        "Jingdong Chen",
+        "Chunhua Shen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the practical strengths and weaknesses of competing methods. Costly agent training further motivates a common basis for comparison. To address these gaps, we compare ten representative methods against GRPO on ALFWorld, ScienceWorld, Search-QA, and WebShop across three model sizes. Our study comprises 132 training runs totaling 12,124.4 recorded H800 GPU-hours, with repeated evaluations over eight rollout seeds for the pretrained backbones and all eleven trained methods. Beyond final task performance, we examine training progress, stability, and measured computational cost. Our evaluation yields three key findings. First, gains over GRPO remain limited in scope, with no method consistently outperforming it across settings. Second, strong final performance can mask unstable training. Third, additional training cost does not consistently translate into better performance. We establish this benchmark to support fair, comprehensive comparison and guide future research toward reliable and cost-effective improvements in agent training. Project page: https://aim-uofa.github.io/Self-Distillation-AgentRL/",
+      "url": "https://arxiv.org/abs/2610.19789",
+      "hf_upvotes": 92,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20572",
+      "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+      "authors": [
+        "Kaixiang Zhao",
+        "Tianrun Yu",
+        "Shangzhe Li",
+        "Yuxiao Yang",
+        "Amanda Hughes",
+        "Weitong Zhang",
+        "Taylor W. Killian"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to restore recoverability. The teacher critiques an incorrect rollout, allowing the student to rewrite its solution following the error. The resulting output, including the critique as privileged information, is scored by the teacher while the student uses the revision without the critique for training. On two Qwen3 students and six mathematical reasoning benchmarks, CriticOPD improves OPD, with the largest gains on competition problems.",
+      "url": "https://arxiv.org/abs/2610.20572",
+      "hf_upvotes": 91,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19975",
+      "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+      "authors": [
+        "Zefeng He",
+        "Yunkai Chai",
+        "Xiaoyang Chen",
+        "Tong Zhu",
+        "Zongliang Wu",
+        "Yun Luo",
+        "Yafu Li",
+        "Yu Cheng"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller scale in the first visit. Fixed coefficient experiments show that reducing the first visit's scale preserves or improves performance, whereas the same reductions to the second hurt it. This asymmetry motivates us to explore asymmetric compute allocation. We propose \\textbf{LatentLoop}, which compresses the first visit's sequence, retains full resolution in the second, and reallocates saved computation to increase the hidden size. We further learn how strongly the first visit updates the full sequence, and share MoE weights across visits while using separate attention parameters to accommodate their different sequence resolutions. Across 15 configurations spanning 1.3B--7B parameters, with the largest budget exceeding $10^{21}$ FLOPs, LatentLoop consistently lowers validation NLL. At a fitted NLL of 1.988, predicted compute savings are 19.0\\% and 7.9\\% relative to vanilla MoE and the looped baseline. It also improves average scores on nine benchmarks at all sizes in 0-shot and 5-shot settings. These results suggest asymmetric compute allocation is a promising direction for looped MoE models.",
+      "url": "https://arxiv.org/abs/2610.19975",
+      "hf_upvotes": 81,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20431",
+      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+      "authors": [
+        "Qianru Meng",
+        "Xi Zhang",
+        "Konstantinos Papakostas",
+        "Congfeng Cao",
+        "Wenxiang Hu",
+        "Tianyi Lu",
+        "Xiao Zhang",
+        "Lun Zhou",
+        "Zaiqiao Meng",
+        "Zhaochun Ren",
+        "Xiaohui Yan",
+        "Yougang Lyu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall program scores can hide components useful to other agents. To address these challenges, we introduce SwarmRSI, a framework that evolves scientific agent swarms for recursive self-improvement. We devise Feedback-Guided Swarm Mutation to refine hypotheses and their implementations using experimental feedback from other agents. We also propose Complementary Swarm Recombination to reuse retained hypotheses and complementary program components across agents, allowing partial results to support new research. Recursive Swarm Evolution integrates both mechanisms into a feedback loop, using new experimental evidence to guide subsequent research. Experiments on OpenProblems, NatureBench and MLE-Bench Lite demonstrate SwarmRSI's state-of-the-art (SOTA) performance. Further evaluations show that accumulated research experience improves performance on held-out tasks. Biologists also reproduce its programs for follow-up biological analyses.",
+      "url": "https://arxiv.org/abs/2610.20431",
+      "hf_upvotes": 80,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20399",
+      "title": "Cortex: Consolidating Context into Parametric Memory",
+      "authors": [
+        "Jintian Zhang",
+        "Feng He",
+        "Xinnian Liang",
+        "Ziwen Xu",
+        "Haoming Xu",
+        "Haojing Huang",
+        "Shuangzhi Wu",
+        "Ningyu Zhang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family testbed measuring consolidation and retention under single, batch, and sequential updates. We propose Cortex, which generates prospective queries to anticipate uses of context and distills context-conditioned outputs into mergeable low-rank or structural feed-forward network updates. Across 4B--120B dense and mixture-of-experts backbones, including both text-only and multimodal models, Cortex lies on the empirical consolidation--retention Pareto frontier in most evaluated settings. After 50 sequential factual edits on a 14B model, Cortex-Structural recovers 88.9% of the context-induced gain while retaining 99.8% of original non-target performance.",
+      "url": "https://arxiv.org/abs/2610.20399",
+      "hf_upvotes": 73,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19820",
+      "title": "ActionOPD: Distilling Decisions, Not Tokens",
+      "authors": [
+        "Huining Yuan",
+        "Xiangmin Yi",
+        "Zelai Xu",
+        "Zixu Wang",
+        "Xinlei Chen",
+        "Xiao-Ping Zhang",
+        "Yu Wang",
+        "Chao Yu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses this mismatch but typically requires teacher token probabilities and compatible tokenization. We argue that semantic actions provide a natural unit of supervision for agent distillation. We introduce ActionOPD, an action-level on-policy distillation method motivated by maximizing expected teacher-action likelihood at student-encountered states. At each such state, ActionOPD samples actions from both the student and a black-box teacher, rewarding student actions according to their semantic agreement with the sampled teacher actions. Through policy optimization, ActionOPD aligns the student's action-level behavior with the teacher's decisions without requiring reproduction of teacher-written reasoning or access to teacher token probabilities. Training Qwen3-4B and Qwen3-8B with two teachers on diverse, curated tool-use tasks yields average gains of 3.3-6.9 percentage points across four out-of-distribution benchmarks. ActionOPD scales favorably with student size and teacher capability, without requiring the teacher and student to share a model family or tokenizer. On $τ^2$-bench, ActionOPD achieves competitive performance against offline distillation and token-level OPD. We further explore Self-ActionOPD with a same-model teacher and privileged context. These results establish ActionOPD as a promising approach to agent distillation.",
+      "url": "https://arxiv.org/abs/2610.19820",
+      "hf_upvotes": 64,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19366",
+      "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+      "authors": [
+        "Minghao Guo",
+        "Qingyue Jiao",
+        "Xiujin Liu",
+        "Jianhong Pang",
+        "Ruimeng Yang",
+        "Naihao Xu",
+        "Liwei Che",
+        "Haochen Xue",
+        "Ziqi Wang",
+        "Xinying Cai",
+        "Jiaxuan Luo",
+        "Jiaxin Deng",
+        "Xuesong Ye",
+        "Jintao Qu",
+        "Wenyao Gao",
+        "Jingwen Gu",
+        "Chenyang Zhao",
+        "Shichun Liu",
+        "Guibin Zhang",
+        "Zefang Liu",
+        "Siyin Wang",
+        "Wujiang Xu",
+        "Danrui Li",
+        "Zeru Shi",
+        "Woongyeong Yeo",
+        "Shuang Liu",
+        "Wei-Chieh Huang",
+        "Weizhi Zhang",
+        "Tianyu Yang",
+        "Kangsan Kim",
+        "Yebowen Hu",
+        "Bowen Wen",
+        "Bowen Jiang",
+        "Haohao Su",
+        "Ming Yin",
+        "Sheldon Yu",
+        "Mian Zhang",
+        "Yuyan Chen",
+        "Hanrong Zhang",
+        "Kai Mei",
+        "Zihao Zhang",
+        "Mingyu Jin",
+        "Xi Zhu",
+        "Hengyi Wang",
+        "Tianxin Wei",
+        "Linyong Nan",
+        "Zhenwen Liang",
+        "Zhendong Chu",
+        "Ziqi Huang",
+        "Yongye Su",
+        "Sixun Dong",
+        "Shujian Liu",
+        "Kaiqu Liang",
+        "Jiaojiao Han",
+        "Zhaoye Fei",
+        "Kun Wang",
+        "Shihan Dou",
+        "Zhichun Guo",
+        "Xingjian Diao",
+        "Zeqi Gu",
+        "Heng Wang",
+        "Tao Feng",
+        "Cheng Qian",
+        "Hamid Palangi",
+        "Silei Xu",
+        "Xi Yun",
+        "Yi Zhu",
+        "Shilong Liu",
+        "Qingsong Wen",
+        "Sung Ju Hwang",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang",
+        "Yiyu Shi",
+        "Dimitris N. Metaxas",
+        "Jiaxuan You",
+        "Julian McAuley",
+        "Mengdi Wang",
+        "Jiawei Han",
+        "Philip S. Yu",
+        "Ziyi Ye"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "abstract": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Addressing this challenge requires effective memory mechanisms that can maintain continuity across sessions, adapt to changing users and environments, and refine memory-management policies through accumulated experience. We introduce a two-axis analytical framework for multimodal agent memory structured around two key questions: how multimodal information is formed and represented (Axis I, Formation and Representation), and how its management adapts with accumulated experience (Axis II, Memory Management). Axis I, Formation and Representation, characterizes what information is retained and how it is encoded (e.g., modality-specific embeddings, textual and structured records, latent and parametric representations) to support subsequent reasoning and action. Axis II, Memory Management, distinguishes three tiers: T1 Static Memory reuses fixed memory; T2 Dynamic Memory updates memory through a stable policy; and T3 Self-Evolving Memory updates memory through an evolving policy. Based on this framework, we synthesize recurring design patterns and derive principles for balancing source fidelity with abstraction, maintaining temporal validity and provenance, grounding memory use in recoverable evidence, and evolving memory policies over time. Furthermore, we discuss the challenges and potential future directions for the memory mechanism of multimodal agents.",
+      "url": "https://arxiv.org/abs/2610.19366",
+      "hf_upvotes": 55,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.14448",
+      "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+      "authors": [
+        "Sihwan Park",
+        "Sung-Yub Kim",
+        "Doohyuk Jang",
+        "Eunho Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this \\emph{KV concentration} and find that KV cache quantization delivers substantially greater acceleration than weight-only and weight-activation quantization in our matched-workload comparisons. However, INT4 KV rollout can degrade learning even with token-level truncated importance sampling (TIS). We propose \\emph{KV4-RL}, which combines calibration-free INT4 KV quantization with selective INT8 protection of attention sinks and recent context. Protecting a bounded number of positions reduces sampler mismatch while retaining most of the speedup from INT4. Across 400 iterations of Qwen3-8B-Base GRPO training, KV4-RL achieves $1.80\\times$ cumulative rollout speedup and $1.27\\times$ cumulative full-iteration speedup over BF16 rollout, reaching $1.97\\times$ rollout speedup over the final 50 iterations. Under a common BF16 evaluator, its final six-benchmark mean accuracy is within 0.5 percentage points of BF16-rollout training for both Qwen3-4B-Base and Qwen3-8B-Base.",
+      "url": "https://arxiv.org/abs/2610.14448",
+      "hf_upvotes": 49,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19698",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "authors": [
+        "Chenhao Yuan",
+        "Bohan Yu",
+        "Yinhao Xu",
+        "Chao Yin",
+        "Chenxi Zhou",
+        "Zhaoxuan Wang",
+        "Shuwen Xu",
+        "Shaoping Huang",
+        "Haolin Ren",
+        "Jiaxiang Liu",
+        "Yao Xu",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of relevant rules. To address this gap, this paper introduces \\textbf{RuleTrek}, a multi-domain benchmark for agentic rule reasoning in complex scenarios. Its rule-grounded construction pipeline extracts structured rule graphs, generates and incrementally composes rule-specific sub-scenarios while ensuring consistency and solvability. To systematically evaluate agentic rule reasoning in complex scenarios, RuleTrek assesses three capabilities in interactive workspaces: Rule Identification (RI), Rule Deduction (RD), and End-to-End Rule Reasoning (E2E). Experiments on 11 frontier LLMs show that the highest RI and RD scores are only 62.47\\% and 60.43\\%, respectively, while E2E scores range from 26.97\\% to 55.29\\%. These results demonstrate that current LLM agents face substantial challenges in rule reasoning over complex scenarios. We make our code and dataset publicly available at \\href{https://github.com/yuan247/RuleTrek}{RuleTrek}.",
+      "url": "https://arxiv.org/abs/2610.19698",
+      "hf_upvotes": 38,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.02089",
+      "title": "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
+      "authors": [
+        "Kyochul Jang",
+        "Seohyeon Park",
+        "Ohchul Kwon",
+        "Sangjun Park",
+        "Junhyeok Choi",
+        "Seungyeop Yi",
+        "Chaeyun Kim",
+        "Sangkyu Lee",
+        "Idan Szpektor",
+        "Avi Caciularu",
+        "Jongmin Park",
+        "Youngjae Yu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task. Existing benchmarks do not jointly evaluate these capabilities on a humanoid. We introduce HumanoidToolBench, an 18-task benchmark spanning three scenarios, three execution levels, and two tool-set modes, together with ToolBook, a dataset of 3.1k demonstrations collected in simulation and on a real Unitree G1. Evaluation of seven policies in simulation and three on the real robot reveals substantial gaps between selecting a suitable tool and completing the task. Focused GR00T N1.7 probes show reduced selection accuracy on unseen tools and continued task execution under unrelated instructions. Code and data are available at https://snu-pi.github.io/HumanoidToolBench/.",
+      "url": "https://arxiv.org/abs/2610.02089",
+      "hf_upvotes": 36,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.18861",
+      "title": "Hybrid Reasoning Agents",
+      "authors": [
+        "Jiaru Zou",
+        "Yunzhe Qi",
+        "Sirui Chen",
+        "Federico Bianchi",
+        "Shang Zhu",
+        "Pan Lu",
+        "Jingrui He",
+        "James Zou"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturally, a lightweight HybridLink enables seamless transitions between text and latent modes, while the agent's continuous working memory preserves lossless hybrid context across multiple turns. These designs preserve tool-integrated agentic capabilities while making latent thoughts directly inspectable. Building on this architecture, we further develop dedicated post-training algorithms for hybrid reasoning: HybridSFT stabilizes tool-integrated hybrid generation by teaching the backbone to coordinate with HybridLink, then HybridRL scales reasoning by learning when to think in latent space and when to act through text. We evaluate HybridAgent at 3 model scales across 11 benchmarks covering mathematics, science, medicine, search, and agentic reasoning. Compared with frontier LLM Agents and agentic frameworks spanning both text-based and latent methods, HybridAgent consistently improves performance by 10.4%, while delivering 35.5%-54.7% token reduction, 1.8x-2.6x faster inference, and 2.7x-3.7x cost savings. Code and data are available at https://github.com/togethercomputer/HybridAgent.",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "hf_upvotes": 36,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.18097",
+      "title": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+      "authors": [
+        "Sirui Zhang",
+        "Fangyun Wei",
+        "Dong Chen",
+        "Jinjing Zhao",
+        "Yitong Wang",
+        "Yunuo Chen",
+        "Baining Guo",
+        "Zheng-Jun Zha"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Post-training is crucial for improving text-to-image models, yet existing pipelines typically rely on manually curated training data and fixed training distributions. We introduce APT (Agentic Post-Training), a fully automated framework that adaptively post-trains a base model according to its evolving capability profile. APT coordinates three agents to construct evaluation sets from user requirements, diagnose model-specific strengths and failure modes, and generate reinforcement learning data with an adaptive prompt distribution that emphasizes underperforming capabilities. By repeatedly evaluating, diagnosing, and updating the generator, APT lets the current model's behavior shape its next training tasks, forming a feedback loop inspired by recursive self-improvement. For general-purpose settings without user-specified evaluation scenarios, we further develop an evaluation harness that enables broad and diverse evaluation set generation. Experiments across multiple base models, benchmarks, and generation architectures demonstrate that APT is model-agnostic, benchmark-agnostic, architecture-agnostic, and fully automated.",
+      "url": "https://arxiv.org/abs/2610.18097",
+      "hf_upvotes": 31,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20256",
+      "title": "Long-Horizon RL Needs Muon",
+      "authors": [
+        "Kai Ruan",
+        "Jinghao Lin",
+        "Tao Chen",
+        "Ziqi Zhou",
+        "Qianshan Wei",
+        "Zihe Huang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Long-horizon agents must coordinate reasoning, tool use, and environment feedback over extended interactions. Learning from sparse outcome rewards requires weighting trajectories of different lengths and updating the policy while rollouts are still being collected. We examine a single-rollout asynchronous recipe combining Muon, token-averaged loss, truncated importance sampling, and auxiliary length and tool-error penalties. Single-rollout sampling allows asynchronous learning without waiting for multiple trajectories for the same issue. We study optimizer choices and recipe components for repository-level issue resolution across two model families. The evaluated training runs show higher training success with the full recipe than with the baselines.",
+      "url": "https://arxiv.org/abs/2610.20256",
+      "hf_upvotes": 30,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19560",
+      "title": "$τ$-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+      "authors": [
+        "Rishitosh Kumar Singh",
+        "Amir Saeidi",
+        "Shamanthak Hegde",
+        "Shrinidhi Kumbhar",
+        "Chitta Baral"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "In long-horizon tool-calling tasks, LLM agents can fail not only because of tool-use errors, but also because of ineffective interaction with users. Yet existing benchmarks largely assume cooperative and behaviorally stable users, leaving the effect of emotional variation on agent reliability underexplored. We introduce $τ$-Emotion-Bench, a ten-domain benchmark for evaluating tool-calling agents under controlled emotion-conditioned user interactions while preserving the underlying task objective. To scale both benchmark construction and agent training, we introduce Tracer, a scalable agentic data-generation pipeline that constructs grounded, policy-valid tasks and collects trajectories through an interactive agent--user--environment harness. By allowing dissatisfied users to terminate inefficient interactions, the harness provides an interaction-aware signal that filters trajectories with excessive user dependence and favors effective tool use. Experiments with two user simulators show that frontier agents remain unreliable, with substantial gaps between average task success and consistent task completion. Tracer-generated supervision consistently improves Qwen3 models across scales, generalizes to unseen domains, and transfers to $τ$-Bench and $τ$-Trait. Behavioral analyses further show that higher task success is associated with a better balance between tool execution and necessary user follow-up. Overall, $τ$-Emotion-Bench and Tracer provide a scalable framework for evaluating agent reliability under diverse user behaviors and improving tool-calling agents through interaction-aware supervision.",
+      "url": "https://arxiv.org/abs/2610.19560",
+      "hf_upvotes": 28,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.17309",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "authors": [
+        "Xialie Zhuang",
+        "Zunhai Su",
+        "Jia Pan",
+        "Ngai Wong",
+        "Guanhua Chen",
+        "Chuan-Wei Kuo"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass prediction with adaptive, confidence-guided reasoning. The Instant models use bidirectional attention in full-attention layers to improve decision accuracy while keeping single-pass inference. The AutoThink models invoke explicit reasoning for uncertain decisions and answer confident cases directly. A three-stage training pipeline establishes shared decision capabilities, specializes the two variants, and equips AutoThink with reasoning through reasoning supervision and reinforcement learning. We introduce Reinforcement Learning for Calibrated Deliberative Decisions (RLCD$^2$), which uses a frozen model and proper scoring rules to reward improvements in decision probability quality and applies a soft penalty to overlong reasoning traces. RLCD$^2$ raises the share of reasoning traces that terminate within the generation limit by up to 48 percentage points and cuts average reasoning length by up to 65%, while largely preserving decision accuracy. On the public subset of Decision Index 0.3, the Instant models outperform the strongest evaluated comparable-scale open-weight decision models by 7.4-16.9 points, and the 27B AutoThink model reaches 73.4. We also introduce DecisionPivot, a programmatically verifiable benchmark of computational decisions built from contrast pairs that differ in a single answer-changing detail. On DecisionPivot, AutoThink outperforms its Instant counterparts by 11.5-18.4 points in pair accuracy and leads among evaluated systems. The models can be run using frameworks such as vLLM and MLX, with quantized versions available to reduce memory usage.Inference code and links to model weights are available at https://github.com/StartLuxLabs/Startlux-Decision .",
+      "url": "https://arxiv.org/abs/2610.17309",
+      "hf_upvotes": 24,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.14020",
+      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+      "authors": [
+        "Yuming Fu",
+        "Weijia Wu",
+        "Jing Chen",
+        "Jiahao Tang",
+        "Feifei Chen",
+        "Hongyu Zhu",
+        "Xin Jin",
+        "Alex Jinpeng Wang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution. Ideally, AI-generated plans could be carried out directly by robotic systems, but reliable automation remains difficult in complex, open-world laboratory environments, where experiments often involve fine-grained manipulation, long-horizon procedures, and substantial variation across tasks and setups. Humans therefore remain an important execution interface between AI-generated plans and physical experiments, creating a need for clear and effective human-facing experimental guidance. Because laboratory procedures are inherently visual, spatial, and dynamic, video is particularly well suited to communicating apparatus configurations, manipulation actions, temporal dependencies, and state changes. Recent advances in video generation now make it possible to synthesize experimental demonstrations directly from an initial workspace image and a natural-language instruction. However, whether such models can reliably communicate real laboratory procedures has not been systematically studied. We introduce LabInstruct, a benchmark for situated instructional video generation in real laboratories. LabInstruct contains 204 tasks across 5 scientific disciplines, with real reference executions and structured annotations of objects, actions, contacts, and state transitions. Evaluating 8 frontier image-to-video models, we find that visually plausible generations frequently remain procedurally incorrect, revealing a substantial gap between visual realism and the reliability required for experimental instruction.",
+      "url": "https://arxiv.org/abs/2610.14020",
+      "hf_upvotes": 20,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.15715",
+      "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
+      "authors": [
+        "Li Nanbo",
+        "Firas Laakom",
+        "Yilan Zhang",
+        "Piotr Piękos",
+        "Yimeng Chen",
+        "Liangyu Wang",
+        "Yifan Xu",
+        "Mateusz Ostaszewski",
+        "Dandan Guo",
+        "Wenyi Wang",
+        "Yanning Dai",
+        "Yuhui Wang",
+        "Jürgen Schmidhuber"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing history. This coupling has reinforced a prevailing view that the state's memory capacity defines the model's long-context capability. We challenge this presumed ceiling: \\emph{recurrent computation need not bear the full burden of long-term storage}. We introduce NoteBank, a sparse episodic memory that archives selected text before future queries are known, uses the backbone's native features for writing and addressing, and reads retrieved evidence through its native forward computation via replay. This \\emph{training-free, plug-and-play} interface requires no external embedding model, separately trained retriever, or separate neural reader. At one million tokens, it raises Gated DeltaNet's mean accuracy across six RULER retrieval tasks from 1.7% to 70.3%, with no observed significant retrieval degradation from 4K to 1M tokens. This recovery adds $\\leqslant$0.025% to analytical FLOPs, with persistent context storage approximately 1/2,600 that of a Transformer's full MHA KV cache at matched width, depth, and precision. Experiments extend from three 1.3B recurrent backbones to Mamba-2-8B and post-trained Qwen3.5-9B, demonstrating gains on LongBench v1/v2 and MemoryAgentBench. Together, these results show that sparse evidence storage and native replay can substantially expand the long-context capability of pretrained linear attention models while retaining the efficiency of recurrent computation.",
+      "url": "https://arxiv.org/abs/2610.15715",
+      "hf_upvotes": 19,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.14774",
+      "title": "ProgAgent: Learning Tool Orchestration through Programmatic Training",
+      "authors": [
+        "Hao Li",
+        "Keqing He",
+        "Longtao Zheng",
+        "Junlong Li",
+        "Weihao Zeng",
+        "Qian Liu",
+        "Yuzhen Huang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly expected to orchestrate diverse tools over long-horizon tasks. Existing agents typically use Direct Tool Calling (DTC), where the model invokes tools sequentially, and tool responses accumulate in the model context, which can lead to context rot and orchestration breakdown. In contrast, Programmatic Tool Calling (PTC) invokes tools through executable code and stores intermediate results in runtime variables rather than appending them to the context. Prior work has explored PTC mainly as an inference-time optimization, but its benefits for agentic training remain unclear, and suitable verifiable training tasks are scarce. In this work, we introduce ProgAgent, a full PTC training stack, comprising a pipeline for synthesizing verifiable long-horizon tasks, a lightweight PTC runtime, and a two-stage training recipe. Using only 215 tasks instantiated at four environment scales, ProgAgent yields higher pass rates than the evaluated baselines of comparable size across four benchmarks. On LOCA-bench, ProgAgent-14B achieves a 30.7% pass rate at a 64k-token environment state, where these baselines score zero. Cross-harness experiments show that PTC-trained models outperform DTC-trained models under both evaluation interfaces, suggesting that the benefits of PTC training extend beyond the interface.",
+      "url": "https://arxiv.org/abs/2610.14774",
+      "hf_upvotes": 19,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.15725",
+      "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
+      "authors": [
+        "Alan Tang",
+        "Lifeng Wang",
+        "Gang Wu",
+        "Tao Zhang",
+        "Yantao Jia",
+        "Xiaofeng Zhu"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Agent skills encode operational procedures and domain expertise as reusable knowledge assets, yet their distribution in plaintext exposes them to unauthorized copying and leakage. However, practical mechanisms for skill ownership verification and leakage tracing remain underdeveloped. Watermark embedding before distribution offers a potential solution, but structured, compact skill instructions impose stringent requirements for factual and procedural accuracy. To address these challenges, we introduce SkillMarker, a KGW-based watermarking method that jointly targets functionality preservation and strong watermark embedding. SkillMarker unifies quality-constrained rewriting with signal-oriented candidate search. The former separates essential knowledge from flexible expression to preserve instruction fidelity; the latter explores alternative expressions to obtain a stronger watermark signal under preservation constraints. We release an open-source toolkit that integrates watermark embedding, quality auditing, and detection to support the protection of agent skills. SkillMarker targets ownership verification and leakage tracing in distributed skill ecosystems, where content may be copied in whole or in part, or incorporated into other skills. Across four datasets, SkillMarker negligibly affects downstream task performance on average. In our copy-paste tests, window-based detection consistently identifies copied passages containing as few as 1,536 consecutive tokens. Even after merging with one or three background skills, SkillMarker retains watermark detection rates of 72.2--77.8\\%.",
+      "url": "https://arxiv.org/abs/2610.15725",
+      "hf_upvotes": 18,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19100",
+      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+      "authors": [
+        "Qingsong Xie",
+        "Jiahao Tian",
+        "Jiacheng Tang",
+        "Zhifeng Li",
+        "Madalina Ciobanu",
+        "Navan Preet Singh",
+        "Qingqing Mao",
+        "Ritankar Das"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen components. Despite abundant desktop, web, and mobile benchmarks, high-fidelity resources tailored for diverse environments are surprisingly scarce. To bridge this gap, we introduce the Screen Referring Grounding Dataset (ScreenRef), a comprehensive GUI grounding dataset consisting of GUI screenshots paired with natural language referring expressions and box or point annotations. Spanning desktop, web, and mobile domains, ScreenRef comprises 586K screenshots and over 633K referring expression instances, covering tasks such as text recognition, visual matching, spatial understanding, and refusal scenarios. To boost the model's grounding performance, we propose the Distillation-to-Reinforcement Learning (D2RL) method to address the limited generalization of supervised fine-tuning and the sparse reward problem in reinforcement learning. Utilizing ScreenRef, we train Qwen3-VL-8B-Instruct via sequential SFT and D2RL training, yielding GroundGUI-8B. GroundGUI-8B achieves 95.2% on ScreenSpot-V2, 63.9% on ScreenSpot-Pro, 65.4% on OSWorld-G, 86.8% on MMBench-GUI L2, and 38.3% on UI-Vision. Among 8B-scale models, it produces substantial gains over models trained on open-source datasets, with performance comparable or even superior to models trained on closed-source data. Code, models, and datasets are available at https://github.com/PrentisAI/GroundGUI.",
+      "url": "https://arxiv.org/abs/2610.19100",
+      "hf_upvotes": 17,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.20195",
+      "title": "What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds",
+      "authors": [
+        "Caixin Kang",
+        "Ke Wang",
+        "Yuchuan Wu",
+        "Xiaoqiang Wang",
+        "Ling Li",
+        "Bingxue Qiu",
+        "Yongbin Li",
+        "Yoichi Sato"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SI"
+      ],
+      "abstract": "Effective social interaction requires more than fluent responses: agents must reach plans that fit the participants' needs and circumstances. Existing evaluations of social agents mainly rely on LLM judges that rate the conversation, without checking the resulting plan. We introduce HICO-Bench, a benchmark of 180 everyday coordination scenarios, such as resource allocation, scheduling, and authorization, in which two agents with private information converse and then independently record the plan they agreed on. A program checks Feasibility (the two records match and satisfy both participants' private conditions), and an LLM judge checks Integrity (the conversation supports the recorded plan); passing both is a Verified Success. Each scenario has two versions that share the same public context but differ in one private condition, so the correct plan differs between them. Across thirteen LLMs, 36% of conversations rated highly for goal completion fail Verified Success. To learn from outcomes that arrive only at the end of a conversation, we propose Paired-Credit Policy Optimization (PaCPO). After each turn, PaCPO asks the agent for a tentative plan, checks it in both versions of the scenario, and rewards the turns after which the tentative plans fit their respective versions. PaCPO raises Qwen3-8B's Verified Success from 20.4% to 28.3%.",
+      "url": "https://arxiv.org/abs/2610.20195",
+      "hf_upvotes": 17,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.17246",
+      "title": "LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators",
+      "authors": [
+        "Riccardo De Santi",
+        "Federico Di Gennaro",
+        "Angelo Gnazzo",
+        "Sophia Tang",
+        "Pranam Chatterjee",
+        "Fanny Yang",
+        "İsmail İlkan Ceylan",
+        "Michael M. Bronstein",
+        "Andreas Krause"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Generative discovery in science requires coupling high-level scientific reasoning with the ability to generate samples respecting the structure of a design space. Yet these capabilities remain largely separated: foundation LLMs encode broad chemical and biological knowledge, while domain-specific flow- and diffusion-based generators capture the priors needed to produce valid sequences and geometries. We study how to align such scientific generators to high-level natural-language discovery goals without requiring an explicit proxy reward, which is often unavailable or poorly captured by learned predictors in experimental sciences. We introduce LLM-to-Flow Distillation (LFD), where a frozen LLM acts as an adaptive teacher for a domain-specific generator. Given a goal such as 'generate peptides with promising anticancer activity', the teacher constructs a curriculum of intermediate sub-goals aware of the flow's current capabilities, and progressively directs them toward the original discovery goal. At each round, the LLM judges sampled candidates under the current objective. These judgments induce preferences that are iteratively distilled into the generator through DPO. This procedure provides dense learning signals even when the initial model places negligible probability on designs satisfying the final goal, enabling adaptation toward poorly covered, out-of-distribution regions. Experiments on therapeutic peptides and small-molecule structure design demonstrate that LFD enables a new form of generative control: aligning arbitrary domain-specific scientific generators to scientific discovery tasks expressed via high-level natural-language goals.",
+      "url": "https://arxiv.org/abs/2610.17246",
+      "hf_upvotes": 15,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.17191",
+      "title": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
+      "authors": [
+        "Zekun Shi",
+        "Alastair James Arthur Price"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits how much information can be stored, while hybrid architectures that add full attention for better recall incur quadratic sequence cost. Alternatively, sparse attention with continued pretraining (CPT) can extend the effective context length. Generalization beyond the trained length remains challenging, however, and CPT can be costly. We introduce FreeSolo, a native sparse attention mechanism with a short-range sliding window branch and a long-range branch that selects keypoint cells for direct token attention. Its linear-time variant, FS-L, learns to prune the prefix before query-dependent selection through short CPT. FS-B searches balanced trees with $O(N\\log^2 N)$ algorithmic cost including radix-sort construction. FreeSolo demonstrates better zero-shot length extrapolation than the baselines without long-context fine-tuning.",
+      "url": "https://arxiv.org/abs/2610.17191",
+      "hf_upvotes": 15,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19628",
+      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
+      "authors": [
+        "Zeyang Zhang",
+        "Linxiang Gao",
+        "Meiqi Gu",
+        "Xingyan Chen",
+        "Minrui Luo",
+        "Kaifeng Lyu",
+        "Tianxing He"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images. Intuitively, iterative samplers such as flow matching are well suited to this task, since each sampling step may resemble one reasoning step. However, in this work, from a circuit complexity perspective, we show that this intuition is misleading. We prove that as long as the model outputs satisfy certain mild regularity conditions, the trajectory of the vanilla flow-matching sampler can be simulated by a constant number of sequential rounds of parallel model evaluations. Consequently, additional sampling steps cannot increase the expressive power of a constant-depth backbone model under the standard complexity-theoretic model of transformers. We then reveal that self-conditioning, which conditions the model on the previous step's estimate of the final image, plays a previously unrecognized role in removing this bottleneck. Controlled experiments on diverse visual-reasoning tasks show that flow matching with self-conditioning achieves higher accuracy and greater reasoning depth than vanilla flow matching, and its performance improves with more sampling steps. Theoretically, we prove that with self-conditioning, a constant-depth backbone can achieve expressive power equivalent to that of space-bounded Turing machines. Our study suggests a design principle for future visual reasoning research: carry more information between sampling steps, so that additional steps translate into deeper reasoning.",
+      "url": "https://arxiv.org/abs/2610.19628",
+      "hf_upvotes": 15,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.19525",
+      "title": "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
+      "authors": [
+        "Sangyeon Yoon",
+        "Wooseok Seo",
+        "Hamish Ivison",
+        "Hyesoo Hong",
+        "Donghoon Kim",
+        "Wonjun Kang",
+        "Albert No",
+        "Jaehyung Kim"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Verifiable instruction-following benchmarks emphasize output-constraint satisfaction but can overlook whether responses meaningfully answer the underlying request, creating an evaluation blind spot. We show that frontier models can receive full credit for responses with little substantive answer content. Using the same verifier-based criterion as a training reward can induce reward hacking, as publicly released checkpoints exhibit higher constraint satisfaction but lower response quality after reinforcement learning with verifiable rewards. To address this reward hacking, we introduce CALIF, a lightweight method that augments verifier rewards with a calibrated likelihood-based bonus to preserve response quality. CALIF evaluates response likelihood under the request alone using the existing frozen reference policy, requiring no additional judge or learned reward model. Across models ranging from 1.7B to 8B in reasoning and non-reasoning modes, CALIF improves constraint satisfaction on IFBench while maintaining response quality near or above pre-RL levels. It also outperforms corresponding base policies in 40 of 45 model-metric comparisons across three rubric-based instruction-following benchmarks, demonstrating gains beyond training verifiers.",
+      "url": "https://arxiv.org/abs/2610.19525",
+      "hf_upvotes": 13,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.14261",
+      "title": "BigCell: Generating Gigapixel Whole-Slide Images",
+      "authors": [
+        "Srikar Yellapragada",
+        "Alexandros Graikos",
+        "Zilinghan Li",
+        "Kostas Triaridis",
+        "Tarak Nath Nandi",
+        "Ji Dong K Bai",
+        "Beatrice Knudsen",
+        "Tahsin Kurc",
+        "Prateek Prasanna",
+        "Rajarsi R. Gupta",
+        "Ravi K Madduri",
+        "Joel Saltz",
+        "Dimitris Samaras"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Whole-slide images (WSIs) are gigapixel-scale digital scans of histopathology tissue and serve as the primary basis for cancer diagnosis. Existing histopathology generative models operate at the patch scale, producing fixed-size tiles of at most 1024$\\times$1024 pixels which encompass only a small fraction of the WSI. In contrast, text reports for clinical diagnoses and slide-level diagnostic labels -- the supervision that exists at scale -- operate at the whole-slide level. We present BigCell, the first approach to generate coherent whole-slide histopathology images at native gigapixel resolution. BigCell trains a flow-matching transformer at 2048$\\times$2048 pixels on over 120,000 publicly available WSIs spanning multiple organ types. Conditioning on embeddings from pathology foundation models and using an inference-time sliding-window pipeline, BigCell generates coherent images of up to 32,768$\\times$32,768 pixels, outperforming prior tile generators on both tile-level and slide-level fidelity metrics. To make gigapixel synthesis practical, we introduce an adaptive scheduling strategy that prioritizes important slide regions, speeding up image generation by over 3\\ttimes with minimal quality degradation. Furthermore, we propose the first text-to-image synthesis at 8k resolution by training a separate model that produces dense conditioning grids directly from pathology text reports. We demonstrate that augmenting with synthetic samples improves slide-level few-shot classification performance by up to $18 \\%$ over baselines trained on real data.",
+      "url": "https://arxiv.org/abs/2610.14261",
+      "hf_upvotes": 13,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.17016",
+      "title": "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
+      "authors": [
+        "Yuyang Dai",
+        "Yuting Tang",
+        "Futoshi Futami",
+        "Takashi Ishida"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "abstract": "Evaluating model uncertainty on real-world data is challenging because each instance provides only a single observed label, leaving true conditional class probabilities unknown. To address this, we introduce ProbabilityBench, a benchmark that provides exact, instance-level class probabilities across three simulated text-based domains: peer review, covert information transfer, and credit risk. By explicitly defining the full data-generating process for each environment, we analytically compute both exact class probabilities and Bayes error. Furthermore, we provide a theoretical guarantee that rendering these cases into natural-language memos strictly preserves their underlying generative probabilities. This exactness enables direct measurement of reported probability quality via KL divergence. Across 16 evaluated models, most models on the observed cost-quality Pareto frontiers are decision models, including Jev and Perplexity Decider. Finally, ProbabilityBench serves as a meta-evaluation framework, leveraging known ground-truth values to benchmark the accuracy of standard calibration metrics and Bayes-error estimators themselves.",
+      "url": "https://arxiv.org/abs/2610.17016",
+      "hf_upvotes": 13,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.14162",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "authors": [
+        "Hermann Kumbong",
+        "Ishan S. Khare",
+        "Iddah Mlauzi",
+        "Andrew Woen",
+        "Charles Ding",
+        "E. Kelly Buchanan",
+        "Simran Arora",
+        "Azalia Mirhoseini",
+        "Christopher Ré"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy of discrete codes, and a transformer generates one level at a time, predicting all codes within a level in parallel. At matched parameter scales, NCM achieves better generative perplexity than the strongest DLM baseline on LM1B while running $21\\times$ faster. On OpenWebText, NCM is competitive with the strongest DLM while running $10\\times$ faster; on XSum, it matches the strongest DLM's ROUGE-L while being $31\\times$ faster. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations.",
+      "url": "https://arxiv.org/abs/2610.14162",
+      "hf_upvotes": 11,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.18598",
+      "title": "Rethinking Projector Training in Multimodal LLMs",
+      "authors": [
+        "Fabian Gröger",
+        "Naël Ouerghemi",
+        "Shuo Wen",
+        "Maria Brbić"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Multimodal LLMs are typically trained by first aligning a vision encoder with a language model via projector training on large image-caption datasets, followed by joint training of the full multimodal model. Despite its widespread use, the role of the projector training stage remains poorly understood. We find that (i) using only $10$ to $20\\%$ of the data for training the projector already recovers most downstream performance gains, and (ii) projectors trained on different datasets can be linearly interpolated while largely preserving performance. These results suggest that projector training mainly performs a coarse alignment, which many different projectors achieve equally well. Motivated by these findings, we propose PORTAL, a training-free projector initialization that requires neither paired image-caption data nor gradient-based optimization, but only per-modality summary statistics. PORTAL computes an optimal-transport-based map between Gaussian approximations of the vision and language feature distributions on a shared principal subspace, so that the projector training stage can be skipped entirely. Without any paired data, PORTAL matches the standard pipeline trained on 558k image-caption pairs across six LLM backbones, two vision encoders, and 16 benchmarks. It outperforms that pipeline in $3$ of $7$ (vision encoder, LLM) settings and reaches an average $98\\%$ of its score across the other four.",
+      "url": "https://arxiv.org/abs/2610.18598",
+      "hf_upvotes": 11,
+      "source": "huggingface"
+    }
+  ]
+}

@@ -14,6 +14,7 @@
 | brain encoding | beyin kodlama | Uyarana verilen sinirsel tepkiyi tahmin etme |
 | causal intervention | nedensel müdahale | Bir iç bileşeni değiştirip çıktıya etkisini ölçme |
 | chain-of-thought | düşünce zinciri | |
+| computer-use agent | bilgisayar kullanan ajan | Ekranı okuyup klavye ve fare eylemleriyle çalışan ajan |
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
 | context window | bağlam penceresi | |
 | continual learning | sürekli öğrenme | Yeni görevleri sırayla öğrenirken eskileri korumaya çalışma |
@@ -39,6 +40,7 @@
 | foundation model | temel model | |
 | generalization | genelleme | |
 | gradient | gradyan | |
+| gradient conflict | gradyan çatışması | Farklı hedeflerden gelen güncellemelerin birbirine ters düşmesi |
 | grounding | görsel konumlandırma | Bir ifadeyi görüntüdeki nesneye ve konumuna bağlama |
 | hallucination | halüsinasyon | Modelin uydurma bilgi üretmesi |
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
@@ -64,6 +66,7 @@
 | multi-agent system | çoklu ajan sistemi | |
 | multimodal | çok kipli | Metin + görüntü + ses gibi |
 | navigation | gezinme | Robotikte |
+| negative log-likelihood (NLL) | negatif log-olabilirlik | Dil modelinin tahmin hatası ölçüsü; düşük olması iyidir |
 | on-policy distillation | on-policy damıtma | Öğrenci kendi ürettiği çıktılar üzerinden öğretmenden öğrenir |
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | out-of-distribution (OOD) | dağılım dışı | Eğitim verisinden belirgin biçimde farklı koşullar |
@@ -78,6 +81,7 @@
 | power law | kuvvet yasası | |
 | preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
+| projection | izdüşüm | Bir nesnenin ya da vektörün bir düzleme veya yöne düşen bileşeni |
 | prompt | istem (*prompt*) | |
 | prompt inoculation | istem aşılama | Eğitimde istenmeyen davranışı istemde açıkça talep ederek modelin onu içselleştirmesini azaltma |
 | pruning | budama | Modelden önemsiz parametreleri çıkarma |

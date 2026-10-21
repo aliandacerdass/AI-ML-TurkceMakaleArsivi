@@ -41,6 +41,10 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.18860,2026-10-15,AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards,cs.AI,137,ozetler/2026/10/2026-10-15.md
 2610.14224,2026-10-15,Harness^2: Recursive Agent Harnessing for an Open World,cs.AI;cs.LG,117,ozetler/2026/10/2026-10-15.md
 2610.16794,2026-10-15,TPPO: Tracking-Value PPO For Language Model Reasoning,cs.LG,96,ozetler/2026/10/2026-10-15.md
+2610.20584,2026-10-16,Player-1: Learning to Play from Synthetic Experience,cs.AI,347,ozetler/2026/10/2026-10-16.md
+2610.13521,2026-10-16,Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation,cs.AI,251,ozetler/2026/10/2026-10-16.md
+2610.20344,2026-10-16,Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents,cs.AI,110,ozetler/2026/10/2026-10-16.md
+2610.19975,2026-10-16,LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation,cs.LG,81,ozetler/2026/10/2026-10-16.md
 2610.22471,2026-10-20,Has GPT-6-Astra Achieved Embodied Intelligence?,cs.LG,367,ozetler/2026/10/2026-10-20.md
 2610.20951,2026-10-20,LEV: Thinking Fast and Deep with Looped Decision Models,cs.AI;cs.LG,249,ozetler/2026/10/2026-10-20.md
 2610.21046,2026-10-20,PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews,cs.AI;cs.LG,141,ozetler/2026/10/2026-10-20.md
