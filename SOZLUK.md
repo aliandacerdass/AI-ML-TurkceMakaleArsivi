@@ -37,7 +37,9 @@
 | fine-tuning | ince ayar | |
 | forgetting | unutma | Yeni öğrenirken eski bilginin kaybolması |
 | forward pass | ileri geçiş | Girdinin modelden bir kez geçirilip çıktı hesaplanması |
+| forward-deployed engineer (FDE) | sahada konuşlu mühendis | Müşteri ortamında çözüm kurup teslim eden mühendis |
 | foundation model | temel model | |
+| gating | kapılama | Bir sinyali koşula göre geçirme ya da bastırma |
 | generalization | genelleme | |
 | gradient | gradyan | |
 | gradient conflict | gradyan çatışması | Farklı hedeflerden gelen güncellemelerin birbirine ters düşmesi |
@@ -99,6 +101,8 @@
 | scaling law | ölçekleme yasası | |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
+| sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
+| stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |

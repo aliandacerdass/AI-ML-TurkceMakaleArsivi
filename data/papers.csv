@@ -45,6 +45,10 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.13521,2026-10-16,Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation,cs.AI,251,ozetler/2026/10/2026-10-16.md
 2610.20344,2026-10-16,Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents,cs.AI,110,ozetler/2026/10/2026-10-16.md
 2610.19975,2026-10-16,LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation,cs.LG,81,ozetler/2026/10/2026-10-16.md
+2610.22350,2026-10-19,FDE-Gym: The Last Mile of AI Delivery,cs.AI,272,ozetler/2026/10/2026-10-19.md
+2610.21601,2026-10-19,Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation,cs.LG,218,ozetler/2026/10/2026-10-19.md
+2610.17665,2026-10-19,RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment,cs.AI,206,ozetler/2026/10/2026-10-19.md
+2610.21261,2026-10-19,Behavioral Compositionality of Sparse Autoencoder Representations,cs.LG;cs.AI,110,ozetler/2026/10/2026-10-19.md
 2610.22471,2026-10-20,Has GPT-6-Astra Achieved Embodied Intelligence?,cs.LG,367,ozetler/2026/10/2026-10-20.md
 2610.20951,2026-10-20,LEV: Thinking Fast and Deep with Looped Decision Models,cs.AI;cs.LG,249,ozetler/2026/10/2026-10-20.md
 2610.21046,2026-10-20,PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews,cs.AI;cs.LG,141,ozetler/2026/10/2026-10-20.md
