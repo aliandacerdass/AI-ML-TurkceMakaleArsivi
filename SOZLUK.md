@@ -10,6 +10,7 @@
 | attention | dikkat (mekanizması) | |
 | autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
 | benchmark | kıyaslama testi | İlk geçişte; sonra "benchmark" da kullanılabilir |
+| brain encoding | beyin kodlama | Uyarana verilen sinirsel tepkiyi tahmin etme |
 | causal intervention | nedensel müdahale | Bir iç bileşeni değiştirip çıktıya etkisini ölçme |
 | chain-of-thought | düşünce zinciri | |
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
@@ -48,6 +49,7 @@
 | long-horizon | uzun soluklu | Çok sayıda adım gerektiren görevler için |
 | looped model | döngülü model | Aynı katmanları döngü içinde tekrar çalıştıran model |
 | loss function | kayıp fonksiyonu | |
+| low-rank adapter (LoRA) | düşük ranklı adaptör | Ağırlıklara düşük ranklı bir ek öğrenen hafif ince ayar yöntemi |
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
@@ -58,6 +60,7 @@
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | overfitting | aşırı öğrenme | |
 | parameter | parametre | |
+| parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
 | peer review | hakem değerlendirmesi | |
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |

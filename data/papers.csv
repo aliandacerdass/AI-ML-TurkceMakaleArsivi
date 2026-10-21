@@ -38,3 +38,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.21046,2026-10-20,PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews,cs.AI;cs.LG,141,ozetler/2026/10/2026-10-20.md
 2610.19159,2026-10-20,Into the Unknown: Benchmarking AI agents on open scientific research problems,cs.AI;cs.LG,134,ozetler/2026/10/2026-10-20.md
 2610.18784,2026-10-20,"Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",cs.AI,103,ozetler/2026/10/2026-10-20.md
+2610.24087,2026-10-21,OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners,cs.AI,287,ozetler/2026/10/2026-10-21.md
+2610.26802,2026-10-21,Scaling Parameter-Efficient Fine-Tuning for Brain Encoding,cs.LG,235,ozetler/2026/10/2026-10-21.md
+2610.26825,2026-10-21,MemT-1.0: Towards Memory-Native Evolution,cs.LG,117,ozetler/2026/10/2026-10-21.md
+2610.26834,2026-10-21,Kronecker Delta Rule for Long Context Linear Attention,cs.LG;cs.AI,28,ozetler/2026/10/2026-10-21.md
