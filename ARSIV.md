@@ -6,8 +6,12 @@
 
 - [21 Ekim 2026](ozetler/2026/10/2026-10-21.md) · Günlük · 4 makale
 - [20 Ekim 2026](ozetler/2026/10/2026-10-20.md) · Günlük · 5 makale
+- [19 Ekim 2026](ozetler/2026/10/2026-10-19.md) · Günlük · 4 makale
 - [18 Ekim 2026](ozetler/2026/10/2026-10-18.md) · Derin okuma · Derin Okuma: S-Space: Exploring Spatial Workspace in Multimodal Language Models
 - [17 Ekim 2026](ozetler/2026/10/2026-10-17.md) · Haftalık özet · Haftanın Özeti
+- [16 Ekim 2026](ozetler/2026/10/2026-10-16.md) · Günlük · 4 makale
+- [15 Ekim 2026](ozetler/2026/10/2026-10-15.md) · Günlük · 4 makale
+- [14 Ekim 2026](ozetler/2026/10/2026-10-14.md) · Günlük · 4 makale
 - [13 Ekim 2026](ozetler/2026/10/2026-10-13.md) · Günlük · 4 makale
 - [12 Ekim 2026](ozetler/2026/10/2026-10-12.md) · Günlük · 4 makale
 - [11 Ekim 2026](ozetler/2026/10/2026-10-11.md) · Derin okuma · Derin Okuma: Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability

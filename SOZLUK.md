@@ -26,6 +26,7 @@
 | distillation | damıtma | Bilgi damıtma (*knowledge distillation*) |
 | embedding | gömme (vektörü) | |
 | embodied intelligence | bedenlenmiş zekâ | Fiziksel bir gövde (robot) üzerinden algılayıp eyleme geçen zekâ |
+| emergent misalignment (EM) | beliren hizasızlık | Dar bir görevde yapılan ince ayarın göreve yabancı alanlarda da zararlı davranış doğurması |
 | encoder / decoder | kodlayıcı / kod çözücü | |
 | evaluation | değerlendirme | |
 | fact-checking | doğruluk denetimi | Bir ifadenin kaynağa göre doğru olup olmadığını kontrol etme |
@@ -35,17 +36,21 @@
 | foundation model | temel model | |
 | generalization | genelleme | |
 | gradient | gradyan | |
+| grounding | görsel konumlandırma | Bir ifadeyi görüntüdeki nesneye ve konumuna bağlama |
 | hallucination | halüsinasyon | Modelin uydurma bilgi üretmesi |
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
+| hidden state | gizli durum | Modelin katmanlardaki iç temsili |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
 | interpretability | yorumlanabilirlik | Modelin iç işleyişini anlaşılır kılma |
+| jailbreak | jailbreak | Modelin güvenlik sınırlarını aşmaya yönelik saldırı; çevrilmez |
 | KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
 | latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
 | linear attention | doğrusal dikkat | Sabit boyutlu yinelemeli durum kullanan dikkat türü |
+| linear probe | doğrusal sonda | İç temsillerden bilgi okumaya çalışan basit doğrusal sınıflandırıcı |
 | long-horizon | uzun soluklu | Çok sayıda adım gerektiren görevler için |
 | looped model | döngülü model | Aynı katmanları döngü içinde tekrar çalıştıran model |
 | loss function | kayıp fonksiyonu | |
@@ -58,6 +63,7 @@
 | navigation | gezinme | Robotikte |
 | on-policy distillation | on-policy damıtma | Öğrenci kendi ürettiği çıktılar üzerinden öğretmenden öğrenir |
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
+| out-of-distribution (OOD) | dağılım dışı | Eğitim verisinden belirgin biçimde farklı koşullar |
 | overfitting | aşırı öğrenme | |
 | parameter | parametre | |
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
@@ -66,8 +72,10 @@
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
 | post-training quantization | eğitim sonrası nicemleme | Eğitim bittikten sonra uygulanan nicemleme |
 | power law | kuvvet yasası | |
+| preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
 | prompt | istem (*prompt*) | |
+| prompt inoculation | istem aşılama | Eğitimde istenmeyen davranışı istemde açıkça talep ederek modelin onu içselleştirmesini azaltma |
 | pruning | budama | Modelden önemsiz parametreleri çıkarma |
 | quantization | nicemleme | |
 | reasoning | akıl yürütme | |
@@ -83,6 +91,7 @@
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | state of the art (SOTA) | en ileri düzey | |
+| steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
@@ -95,4 +104,5 @@
 | uncertainty | belirsizlik | Modelin cevabından ne kadar emin olduğu |
 | unsupervised learning | denetimsiz öğrenme | |
 | vision-language model (VLM) | görü-dil modeli | |
+| vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |
