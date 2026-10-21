@@ -5,6 +5,7 @@
 | İngilizce | Türkçe | Not |
 |---|---|---|
 | ablation study | ablasyon çalışması | Bileşenleri tek tek çıkararak etkilerini ölçme |
+| advantage | avantaj | Pekiştirmeli öğrenmede bir eylemin beklenenden ne kadar iyi olduğu |
 | agent | ajan | |
 | alignment | hizalama | Modelin insan niyet/değerleriyle uyumu |
 | attention | dikkat (mekanizması) | |
@@ -17,6 +18,8 @@
 | context window | bağlam penceresi | |
 | continual learning | sürekli öğrenme | Yeni görevleri sırayla öğrenirken eskileri korumaya çalışma |
 | counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
+| credit assignment | kredi ataması | Sonuçtaki başarının hangi adıma ya da token'a ait olduğunu belirleme |
+| critic | eleştirmen | Pekiştirmeli öğrenmede değer tahmini yapan bileşen |
 | dataset | veri seti | |
 | deception | aldatma | Ajanın doğru olmayan izlenim yaratması |
 | decision model | karar modeli | Metin üretmeden, tek geçişte her seçenek için olasılık veren model |
@@ -68,6 +71,7 @@
 | parameter | parametre | |
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
 | peer review | hakem değerlendirmesi | |
+| permutation invariance | sıra değişmezliği | Girdilerin sırası değişince sonucun değişmemesi |
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
 | post-training quantization | eğitim sonrası nicemleme | Eğitim bittikten sonra uygulanan nicemleme |
@@ -80,6 +84,7 @@
 | quantization | nicemleme | |
 | reasoning | akıl yürütme | |
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
+| recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
@@ -103,6 +108,8 @@
 | trust region | güven bölgesi | Güncellemenin eski çözümden fazla uzaklaşmasını sınırlama |
 | uncertainty | belirsizlik | Modelin cevabından ne kadar emin olduğu |
 | unsupervised learning | denetimsiz öğrenme | |
+| value function | değer fonksiyonu | Bir durumdan beklenen toplam ödülü tahmin eden fonksiyon |
+| verifiable reward | doğrulanabilir ödül | Doğruluğu programla kontrol edilebilen ödül |
 | vision-language model (VLM) | görü-dil modeli | |
 | vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |
