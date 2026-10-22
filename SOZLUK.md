@@ -2,6 +2,10 @@
 
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
+| classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
+| denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
+| exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
+| flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
 | İngilizce | Türkçe | Not |
 |---|---|---|
 | ablation study | ablasyon çalışması | Bileşenleri tek tek çıkararak etkilerini ölçme |
@@ -102,10 +106,12 @@
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
+| spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
+| supervised fine-tuning (SFT) | denetimli ince ayar | Etiketli ya da seçilmiş örneklerle ince ayar |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | token | token (simge) | |

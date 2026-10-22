@@ -58,3 +58,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.26802,2026-10-21,Scaling Parameter-Efficient Fine-Tuning for Brain Encoding,cs.LG,235,ozetler/2026/10/2026-10-21.md
 2610.26825,2026-10-21,MemT-1.0: Towards Memory-Native Evolution,cs.LG,117,ozetler/2026/10/2026-10-21.md
 2610.26834,2026-10-21,Kronecker Delta Rule for Long Context Linear Attention,cs.LG;cs.AI,28,ozetler/2026/10/2026-10-21.md
+2610.28354,2026-10-22,S-Agent 2.0: Spatial Reasoning with a General Coding Agent,cs.AI,96,ozetler/2026/10/2026-10-22.md
+2610.25078,2026-10-22,"CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",cs.LG,91,ozetler/2026/10/2026-10-22.md
+2610.25043,2026-10-22,"VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",cs.AI,60,ozetler/2026/10/2026-10-22.md
+2610.14136,2026-10-22,Correction Training for Diffusion Models,cs.AI,37,ozetler/2026/10/2026-10-22.md
