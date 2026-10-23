@@ -2,7 +2,9 @@
 
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
+| adversarial training | çekişmeli eğitim | Üreteç ile ayırt edici bileşenin birbirine karşı eğitilmesi |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
+| continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
@@ -98,6 +100,7 @@
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
+| retrieval-augmented generation (RAG) | erişimle zenginleştirilmiş üretim | Modelin yanıtı dış kaynaklardan getirilen bilgiyle üretmesi |
 | reward | ödül | Pekiştirmeli öğrenmede başarı sinyali |
 | reward model | ödül modeli | |
 | rollout | yanıt üretimi | Pekiştirmeli öğrenmede modelin örnek çıktı üretmesi |
@@ -124,6 +127,7 @@
 | unsupervised learning | denetimsiz öğrenme | |
 | value function | değer fonksiyonu | Bir durumdan beklenen toplam ödülü tahmin eden fonksiyon |
 | verifiable reward | doğrulanabilir ödül | Doğruluğu programla kontrol edilebilen ödül |
+| verifier | doğrulayıcı | Bir çıktının doğruluğunu kontrol eden bileşen |
 | vision-language model (VLM) | görü-dil modeli | |
 | vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |

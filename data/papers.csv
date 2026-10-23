@@ -62,3 +62,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.25078,2026-10-22,"CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",cs.LG,91,ozetler/2026/10/2026-10-22.md
 2610.25043,2026-10-22,"VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",cs.AI,60,ozetler/2026/10/2026-10-22.md
 2610.14136,2026-10-22,Correction Training for Diffusion Models,cs.AI,37,ozetler/2026/10/2026-10-22.md
+2610.26828,2026-10-23,Agent World Model in the Wild: Computer-Use Agent Environment Synthesis,cs.AI;cs.LG,64,ozetler/2026/10/2026-10-23.md
+2610.28698,2026-10-23,Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds,cs.AI;cs.LG,51,ozetler/2026/10/2026-10-23.md
+2610.29680,2026-10-23,TraceForge: Distilling with Your Own Thinking,cs.AI;cs.LG,19,ozetler/2026/10/2026-10-23.md
+2610.29722,2026-10-23,Retrieval Augmented Generation Compositionality,cs.AI,27,ozetler/2026/10/2026-10-23.md

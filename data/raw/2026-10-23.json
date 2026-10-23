@@ -1,0 +1,624 @@
+{
+  "run_date": "2026-10-23",
+  "hf_dates": [
+    "2026-10-22"
+  ],
+  "sources": [
+    "huggingface",
+    "arxiv-liste"
+  ],
+  "fetched_at": "2026-10-23T06:12:01+03:00",
+  "papers": [
+    {
+      "arxiv_id": "2610.26828",
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+      "authors": [
+        "Zhaoyang Wang",
+        "Qianhui Wu",
+        "Haorui Wang",
+        "Simon Yu",
+        "Baolin Peng",
+        "Canwen Xu",
+        "Hao Cheng",
+        "Wenlin Yao",
+        "Boyi Liu",
+        "Yite Wang",
+        "Jianfeng Gao",
+        "Huaxiu Yao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interaction interface, we construct executable environments that jointly support graphical user interfaces, model context protocol services, and command-line interfaces, allowing agents to flexibly combine visual interaction, tool use, and code execution. WildAWM is entirely powered by open-source models, demonstrating that high-quality computer-use environments can be generated without proprietary frontier models. Beyond environments, we address three recurring challenges in task synthesis: ensuring solvability, maintaining sufficient difficulty, and producing reliable verifiers, by introducing execution-based quality gates that combine heterogeneous agent rollouts, cross-judge consistency checks, and counterfactual probes of judgment robustness. The resulting pipeline synthesizes 341 long-horizon environment-task pairs that can require over 100 agent steps to solve and remain challenging even for frontier models, with GPT-6-Astra solving only 60% of them. We train two Qwen models of different sizes exclusively in these synthetic worlds. Both models achieve substantial gains across 8 out-of-distribution benchmarks spanning web, claw, and computer-use agents, demonstrating that learning in WildAWM's synthesized worlds generalizes broadly to unseen computer-use tasks. The code is publicly available at https://github.com/MSR-Orchard/WildAWM.",
+      "url": "https://arxiv.org/abs/2610.26828",
+      "hf_upvotes": 64,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28698",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "authors": [
+        "Kuan Zhang",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yue Su",
+        "Xiangnan Wu",
+        "Zirong Chen",
+        "Run Luo",
+        "Jinkun Hou",
+        "Tao Tan",
+        "Yinhe Zheng",
+        "Yiming Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level validation losses and gameplay benchmarks from in-corpus worlds to unseen worlds. Our results show: (1) more data improves in-corpus performance, diversity improves transfer to related worlds with limited gains in distant worlds, and model size improves data efficiency but generalizes worse to distant worlds under single-world training; (2) we observe an early interface phase with broad cross-world benefits and a later world phase with gains narrowed to in-corpus and related worlds, and fit an empirical scaling law relating validation loss to data volume, diversity and model size; and (3) our models are competitive with Minecraft specialists and frontier models in 3D worlds, and perform best in real-time settings. However, the limits of imitation and persistent gaps in distant worlds suggest that building generalist embodied agents requires richer training stages beyond continued pre-training.",
+      "url": "https://arxiv.org/abs/2610.28698",
+      "hf_upvotes": 51,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29722",
+      "title": "Retrieval Augmented Generation Compositionality",
+      "authors": [
+        "Ido Levy",
+        "Segev Shlomov",
+        "Leshem Choshen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. We pre-declare three hypotheses and introduce LASAGNA, an open-source framework for controlled RAG evaluation. We test 450 configurations across eight benchmarks and corpora ranging from 5K to 200K documents. Three findings emerge. First, individually strong techniques from different phases of a RAG pipeline do not necessarily compose: three retrieval techniques predict a +47% combined improvement but deliver only +17% when used together. Second, component gains stack differently for retrieval and faithfulness, and optimizing one can hurt the other. Third, the best composition changes as the corpus grows: the combination that wins on a small corpus may not remain best at large scale. These findings show that gains measured in isolation are not reliable predictors of realistic performance, and that new RAG techniques should be tested with the full surrounding stack. We call on researchers to do so and supply LASAGNA to simplify these experiments.",
+      "url": "https://arxiv.org/abs/2610.29722",
+      "hf_upvotes": 27,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29968",
+      "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+      "authors": [
+        "My Chiffon Nguyen",
+        "Tianyi Hu",
+        "Vinod Anbalagan",
+        "Henry Gagnier",
+        "Pouya Sadeghi",
+        "Farah Abdou",
+        "Tidor-Vlad Pricope",
+        "Diego MMS Oliveira",
+        "Jocelyn K D&#39;Arcy",
+        "Madeline Smith",
+        "Oluwaseun A Ajayi",
+        "Yusser Al Ghussin",
+        "Zena Al-Khalili",
+        "Micol Altomare",
+        "Shayan Amir",
+        "Ahanaf Aziz",
+        "Bryan Chen",
+        "Ruchira Dhar",
+        "Abdellah El Mekki",
+        "Rawan Mohammed Elframawy",
+        "Akhil Eppa",
+        "Silvia Fernandez",
+        "Alex Gimei",
+        "Arya Hariharan",
+        "Christian Hoang",
+        "RamMohanRao Kadiyala",
+        "Diana Kozachek",
+        "Peerat Limkonchotiwat",
+        "Ankita Maity",
+        "Di Mo",
+        "Ayush Munot",
+        "Aylin Naebzadeh",
+        "Anastasiia Nikitina",
+        "Dina Pisarevskaya",
+        "Divas Poudel",
+        "Jebish Purbey",
+        "Md Rabius Sany Apu",
+        "Ahmad Mufli Ramadhan",
+        "Ralitza Nikolova Rizova",
+        "Diogo M. Serrano-Miranda",
+        "Vivek Gopalkrishna Silimkhan",
+        "Luis Fernando Solis Navarro",
+        "Kaiser Sun",
+        "Arya Suneesh",
+        "Manaswitha Sunkara",
+        "Tejaswi Sunkara",
+        "Jonathan E Swindell",
+        "Hanna Yukhymenko",
+        "Jingyi Zheng",
+        "Esther Adenuga",
+        "Ilia Afanasev",
+        "Wafa Aissa",
+        "Lisa Alazraki",
+        "Lauren C Altomare",
+        "Priscilla Amondi Amuok",
+        "Emile Anand",
+        "Gabriel Assis",
+        "José Matías Avalos",
+        "Silvia Lorena Avila",
+        "Zakaria Baannou",
+        "Niyati Bafna",
+        "Yash Bagla",
+        "Sarah Bahrami",
+        "Bontu F Balcha",
+        "Vanya Bannihatti Kumar",
+        "Irene Baucells",
+        "Abdumutalib Begmuratov",
+        "Naman Bhatia",
+        "Souvik Bhattacharyya",
+        "Isabel Blanco Ferreiro",
+        "Felipe Bochini",
+        "Sayuru Bopitiya",
+        "Angana Borah",
+        "Tulika Bose",
+        "Olena Bugaiova",
+        "Juliana Carvalho",
+        "Nancy F Chen",
+        "Stephy Chen",
+        "Rochelle Choenni",
+        "Jayanth Krishna Chundru",
+        "Leandro A Cossio",
+        "Nebojša Damnjanović",
+        "Ona de Gibert",
+        "Marco De Santis",
+        "Pedro Delgado",
+        "Kaustubh Dholé",
+        "Adnan El Assadi",
+        "Wesam El-Sayed",
+        "Nadine M Elframawy",
+        "Oumayma Essarhi",
+        "Naome A Etori",
+        "Reuben Chagas Fernandes",
+        "Saanidhi Pravin Gade",
+        "Javier García Gilabert",
+        "Álvaro González-Escapa",
+        "Bin Hu",
+        "Kaiyu Huang",
+        "Abderrahmane Issam",
+        "Danka Jokić",
+        "Ulugbek Khalilov",
+        "Dominik Krzemiński",
+        "Roy Ka-Wei Lee",
+        "Haichang Li",
+        "Chen Cecilia Liu",
+        "Zhengyuan Liu",
+        "Cedric Lothritz",
+        "Houman Mehrafarin",
+        "Antonio Miranda-Escalada",
+        "Fengran Mo",
+        "Mehrnaz Mofakhami",
+        "Wafaa Mohammed",
+        "Felipe Moreno-Vera",
+        "Prahitha Movva",
+        "Jannatul Nayem",
+        "Van Ngo",
+        "Joy Olusanya",
+        "Marc Pàmies",
+        "Avinash Kuney Pandey",
+        "Yurii Paniv",
+        "Fred Philippy",
+        "Vladislav Poritski",
+        "Dikshya Poudel",
+        "Joanna Radoła",
+        "Sara Rajaee",
+        "Swati Rajwal",
+        "Prerana Rane",
+        "Muhammad Ravi Shulthan Habibi",
+        "Lucas Resck",
+        "Shubhashis Roy Dipta",
+        "Ananya Sahu",
+        "Eduardo Sánchez",
+        "Borja Sánchez Clemente",
+        "Aleix Sant",
+        "Nobin Sarwar",
+        "Istiak Shihab",
+        "Santhoshini Pranathi Singaraju",
+        "Jane Smith",
+        "David Stap",
+        "Emily Z Su",
+        "Ananth K Suresh",
+        "Sajag Swami",
+        "Ruiyang Tan",
+        "Nazia Tasnim",
+        "Khalid Tounoussi",
+        "Patteera Triamamornwooth",
+        "Muhammad Saad Umar",
+        "Shankar Venkitachalam",
+        "Oksana Volchek",
+        "Lingbo Wang",
+        "Debela Desalegn Yadeta",
+        "Rushikesh Zawar",
+        "Jinghan Zhang",
+        "Mike Zhang",
+        "Weihua Zheng",
+        "Marzieh Fadaee",
+        "Akhil Arora",
+        "Károly Boczka",
+        "Julia Kreutzer"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entirely by humans through a participatory community effort, spanning 62 cultures (45 countries, 51 languages). These riddles are deeply rooted in their respective cultures and require abductive and compositional reasoning, alongside detailed factual and social knowledge, language skills, and an understanding of culturally specific associations. We benchmark 28 LLM configurations using both automatic and large-scale human evaluation. Even frontier models achieve at most 22% accuracy in some communities. We publicly release all artifacts alongside an open contribution process to expand the benchmark's linguistic and cultural coverage.",
+      "url": "https://arxiv.org/abs/2610.29968",
+      "hf_upvotes": 20,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29680",
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "authors": [
+        "Yan Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still entirely routine; the restriction applies to their own outputs alone. Recent work recovers the hidden reasoning by replaying encrypted blocks across models. It somehow works, but it breaks the providers' terms of service, so it is not something a product can be built on long-term. We built the alternative. We take the context and the teacher's answer as input, and generate the reasoning trace ourselves, in the style of the student's own model family. Training is two-stage, supervised and then adversarial: a generator learns to regenerate the family's own reasoning traces from their context and answer, and a critic learns how real a reasoning trace looks. Applied to a teacher's answer, the generator writes one in the family's style. An independent judge rates how likely traces are to be genuine on a scale from 0 to 1: ours average 0.68, real traces 0.66, and traces selected by the critic from four candidates 0.82. These are authenticity scores, not correctness rates. We test the idea on five benchmarks with everything else held fixed. On general tasks the five training corpora are about the same; on coding, the generated reasoning beats Fable 5's own thinking content. With the same 5,000 questions and the same teacher answers, HumanEval+ improves by 3.7 points and MBPP+ by 7.1 at the final checkpoint, and the MBPP+ lead holds at every checkpoint. We suspect that reasoning written in the student's family style is easier for it to learn from.",
+      "url": "https://arxiv.org/abs/2610.29680",
+      "hf_upvotes": 19,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29357",
+      "title": "Memory-Centric Continual Learning for AI Agents",
+      "authors": [
+        "Dongfang Li",
+        "Zhuoen Chen",
+        "Bonian Jia",
+        "Zixuan Liu",
+        "Zhengxuan Lu",
+        "Can Deng",
+        "Yukun Shi",
+        "Yuhang Meng",
+        "Xin Zhang",
+        "Jiahe Huang",
+        "Fuhao Li",
+        "Junmai Wang",
+        "Shunyao Wen",
+        "Jingjun Sun",
+        "Jiaxu Tian",
+        "Jiangling Zhang",
+        "Zihan Wang",
+        "Liangyou Li",
+        "Yitong Yao",
+        "Shuangyong Song",
+        "Beilun Wang",
+        "Pengxu Wei",
+        "Hanlin Xu",
+        "Chang Liu",
+        "Yongxiang Li",
+        "Baotian Hu",
+        "Xiangyang Ji",
+        "Min Zhang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can drive genuine continual learning remains an open question. In this paper, we introduce Memory-Centric Continual Learning (MCCL), arguing that memory should be judged by whether it improves future actions, not merely what it retrieves. MCCL has three main parts. First, a three-axis taxonomy organizes memory by where state is stored (substrates), what form it takes (assets), and how it is managed (policies). This defines a two-loop lifecycle that updates memory state in an inner loop while refining management policies in an outer loop based on task feedback. Second, an evaluation protocol measures retention under interference, adaptation to change, and task transfer to isolate genuine behavioral gains from simple context expansion. Third, a memory scaling framework models how agent performance scales with experience, storage capacity, and compute budgets across non-parametric and parametric memory. Together, these components reframe agent memory from passive lookup to continuous learning, offering a principled route toward self-improving autonomous agents.",
+      "url": "https://arxiv.org/abs/2610.29357",
+      "hf_upvotes": 19,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.30108",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "authors": [
+        "Yanzhe Chen",
+        "Ziyi Yang",
+        "Jifeng Zhu",
+        "Qiming Huang",
+        "Ruihe An",
+        "Peiyao Xu",
+        "Hesen Yang",
+        "Runda Liu",
+        "Chang Gong",
+        "Zhijun Cao",
+        "Zechen Bai",
+        "Wenzheng Zeng",
+        "Yiqi Lin",
+        "Guoqiang Liang",
+        "Kevin Yuchen Ma",
+        "Kevin Qinghong Lin",
+        "Mike Zheng Shou"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.MA",
+        "cs.MM"
+      ],
+      "abstract": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use? We introduce PAPAV, a unified capability-centric framework of five recurring functions: Perceive the current state, Anticipate action effects, Plan a feasible course, Act through an interface or body, and Verify the outcome. Defined by function rather than architecture, these capabilities let PAPAV identify what all three share and then compare MMEAs with MMAs and with RSs. Five physical constraints, from partial observability to unverifiable outcomes, leave fewer choices fixed in advance and less room to reverse errors. Across 64 benchmarks, explicit evaluation centers on Act; only 5 assess Anticipate and 3 assess Verify, leaving both largely hidden behind task success. These constraints also frame the open challenges we identify. PAPAV therefore provides a common basis for designing reliable physical agents and measuring progress across all five capabilities rather than task success alone.",
+      "url": "https://arxiv.org/abs/2610.30108",
+      "hf_upvotes": 18,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29458",
+      "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+      "authors": [
+        "Fei Bai",
+        "Huatong Song",
+        "Chuan Hao",
+        "Ran Tao",
+        "Jian Yang",
+        "Bryan Dai",
+        "Wayne Xin Zhao",
+        "Ji-Rong Wen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Agent harnesses have become a central component of modern agentic systems, shaping how models use tools, manage context, and coordinate long-horizon interaction. Realizing the benefits of these harnesses depends on how effectively the underlying model can make use of them, motivating reinforcement learning directly through the harness. However, existing approaches typically train through a single fixed harness, which can lead to specialization and limited transfer across harness configurations. To address this, we introduce Harness Scaling, a new scaling dimension for agentic RL that extends training from a single harness to diverse execution configurations. Concretely, we construct a factorized harness space, select a compact training subset with balanced factorial coverage, and organize cross-harness training to combine global coverage with controlled variation for the same task. Across multiple benchmarks, model scales, and RL algorithms, Harness Scaling consistently improves generalization to unseen white-box configurations. Moreover, models trained through structured white-box variation transfer effectively to unseen external black-box harnesses, outperforming models trained through a single complex black-box harness. These results establish harness diversity as a meaningful scaling dimension for agentic RL and highlight the importance of how this diversity is organized for cross-harness generalization.",
+      "url": "https://arxiv.org/abs/2610.29458",
+      "hf_upvotes": 15,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28763",
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "authors": [
+        "Ming Zhong",
+        "Stacy Li",
+        "Nicholas Carlini",
+        "Matthew Jagielski"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-the-wild conditions, and where they fall short. Empirically, today's frontier agents advance the published best on every benchmark, with Claude Opus reaching 10.4% mean relative improvement and no run flagged for academic misconduct. These gains, however, come almost entirely from a bag of ML-engineering tricks rather than research-level insight. Trajectory analysis surfaces three recurring limitations in this setting: novelty miscalibration, resource under-utilization, and rapid collapse into local engineering sweeps. Lightweight plug-in skills for research ideation, experiment management, and scheduled checklists raise Claude Opus from 10.4% to 20.1% and Codex from 4.4% to 8.1%, while yielding more diverse, domain-relevant interventions. Agent4Sci gives the community a way to track and push frontier agents from ML engineering toward domain insight on real-world ML-for-science problems. Code and data are available on GitHub (https://github.com/maszhongming/agent4sci) and Hugging Face (https://huggingface.co/datasets/MingZhong/agent4sci).",
+      "url": "https://arxiv.org/abs/2610.28763",
+      "hf_upvotes": 13,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29317",
+      "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
+      "authors": [
+        "Yifan Zhou",
+        "Ziyang Gong",
+        "Xiaojun Ye",
+        "Yifei Liu",
+        "Donggang Li",
+        "Xiaolong Zhou",
+        "Zhihang Zhong",
+        "Xue Yang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framework that retains experience about these decisions while keeping its vision-language backbone fixed. The key distinction is between evidence about a scene and experience about how to reason with that evidence. 3DFusionMemory fuses current-scene observations into queryable spatial relations. A Spatial Skill Library provides reusable tool procedures, and Spatial Cognition associates task conditions with experience about when and how to use memory and skills. Completed trajectories are abstracted into process records and consolidated between task blocks, allowing later decisions to draw on earlier execution without transferring scene coordinates or reference answers. Across five spatial-reasoning benchmarks, SpatialBrain improves on direct answers from the same backbone on four and ties on the fifth. Component comparisons, experience-coverage curves, and traced resource decisions characterize how the framework accumulates and uses these resources.",
+      "url": "https://arxiv.org/abs/2610.29317",
+      "hf_upvotes": 12,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.30128",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "authors": [
+        "Zhanshuo Cao",
+        "Jiakai Tang",
+        "Yuqi Zhou",
+        "Sunhao Dai",
+        "Jun Xu"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shallow processing while a critical minority only stabilizes at full depth. (2) Suboptimality of fixed allocation: given oracle access to the target item, a non-uniform depth assignment consistently outranks the fixed one, indicating that existing uniform computation both wastes capacity on already-converged items and sacrifices overall recommendation quality. These observations motivate a shift from fixed-depth computation to item-level adaptive reasoning. To this end, we propose LoopRec. LoopRec recursively applies a single weight-shared block and introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently. Items whose representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions. This design converts the fixed global depth into a learned, per-item property without auxiliary depth labels, and is readily adaptable to diverse backbone architectures. Extensive experiments on public benchmarks with four backbone families demonstrate that LoopRec consistently outperforms matched fixed-depth counterparts. Further analysis reveals that LoopRec's learned allocation exhibits interpretable patterns aligned with our post-hoc oracle analysis: lower-frequency items and more recent interactions naturally receive deeper computation. Our code is available at https://github.com/Elpmis117/LoopRec.",
+      "url": "https://arxiv.org/abs/2610.30128",
+      "hf_upvotes": 11,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28027",
+      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
+      "authors": [
+        "Taiheng Pan"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users. We measure how often this happens. We trace seven open-source frameworks for RL post-training through their commit histories and link them to 6,939 screened arXiv papers from January 2025 to June 2026. Of 1,598 papers that propose a general RL training method, 37 reached at least one framework. Across five quarterly cohorts of papers, the number included within 180 days stayed between 5 and 7 while the cohorts grew from 72 to 386 papers. Compared with papers from the same quarters, included papers more often trained policies of 30B parameters or more, at 41 against 10 percent, and more often changed a coefficient, clip, mask or weight in the existing loss, at 29 against 9 percent. Both gaps hold without papers from the companies that maintain the frameworks, while code release was equally common in both groups. The frameworks' issues and pull requests show that few methods are turned away in public. More than nine in ten of the general methods no framework included have no thread there that cites or names them, and many proposals that do appear stay open without a reply. Two further records, the frameworks' issues and the technical reports of 13 large open-weight models, show that users rarely report training failures in public and that the reports state 8 of the 13 widely included methods. We release the data as a tracker that links training failures to framework implementations and lists each framework's contribution rules and earlier proposals.",
+      "url": "https://arxiv.org/abs/2610.28027",
+      "hf_upvotes": 10,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28940",
+      "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
+      "authors": [
+        "Yisi Liu",
+        "Nicholas Lee",
+        "Gopala K. Anumanchipalli"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "abstract": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but remained limited in two ways: approximately 1s end-to-end latency on consumer hardware, and the lack of a text-based interface for designing or editing target voices. We present StyleStream 2.0, a fast and controllable streaming VSC framework that addresses these limitations. To reduce latency, we train a few-step pixel MeanFlow model and further fine-tune it with autoregressive feedback inspired by Self Forcing, improving robustness under streaming inference. This reduces end-to-end latency to 520~ms on a consumer GPU, a 2x speedup over StyleStream 1.0, while maintaining conversion quality. To enable controllable style manipulation, we remove the mel-spectrogram context and instead route target style information through a compact style embedding. In this embedding space, we train a unified text-conditioned flow matching model that supports both text-based voice design, which maps natural language prompts to voice styles, and instruction-based voice editing, which modifies a specific attribute of a source utterance while preserving the rest. Experiments show that StyleStream 2.0 achieves the strongest target style fidelity on VSC, voice design, and voice editing, while remaining competitive on intelligibility and non-edited attribute preservation.",
+      "url": "https://arxiv.org/abs/2610.28940",
+      "hf_upvotes": 9,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.30090",
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+      "authors": [
+        "Juan S. Santillana"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.CL",
+        "cs.LG",
+        "cs.NI"
+      ],
+      "abstract": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision primitives - binary gates, closed-set choices, ordinal scores - as product APIs, with no academic treatment. We present VX-One: a small multi-head network (100K-10M parameters) whose outputs are these primitives - a calibrated gate, a choice over a closed candidate set that always includes an explicit unknown option, and an ordinal score, trained multi-task, temperature-calibrated per head (~0.7-1.7 ms p50 on CPU). We evaluate it on UNSW-NB15, CIC-IDS2017, EMBER2024 against calibrated XGBoost, Random-Forest, MLP, Kitsune, and measure a two-phase cascade (Suricata with 52,674 Emerging-Threats rules -> VX-One) over five days of CIC-IDS2017. Findings: (i) VX-One wins detection (AUROC/FPR@95%TPR) on UNSW-NB15 and under temporal drift on CIC-IDS2017 (0.711 vs 0.637), but XGBoost wins multi-class attribution on all three benchmarks; (ii) leave-one-family-out gate detects never-seen families on 9/9 UNSW folds yet drops below chance on CIC recon family, and abstention threshold transfers poorly across benchmarks; (iii) on payload-less reconstructions signature engines resolve ~0.1% of flows - gray zone ~99.9% of traffic, recovered by Phase 2 (combined recall >=0.978); (iv) calibration collapses under temporal drift (ECE 0.04->0.40) for every method while ranking partially survives. We provide a measured account of where typed calibrated decisions help perimeter triage, and where they fail.",
+      "url": "https://arxiv.org/abs/2610.30090",
+      "hf_upvotes": 9,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28905",
+      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+      "authors": [
+        "Alan-Barsag Gazzaev",
+        "Alexey Gavrilov",
+        "Sergey Muravyov",
+        "Ilya Makarov"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and, crucially, whether the receiver uses what that message means. In Hidden Messages, a sender compresses its denoising state into four signed dense vectors; the receiver consumes them while retaining its own context, canvas, and trajectory. Removing a message tests whether the channel matters; replacing it with a message from another example tests whether its content matters. Across controlled tasks, derangement removes a +63.6-point advantage on Tiny-A2D and a +100.0-point advantage on Dream-7B, while targeted substitutions steer the receiver toward the substituted fact. On QASC with the two supporting facts split across agents, matched communication reaches 80.8%, but a wrong-example message lowers accuracy to 46.8%, a content effect of +34.0 points. The surprising result is temporal: one late transfer reaches 87.8%, exceeding four recurrent exchanges by +7.0 points. These experiments provide causal evidence for continuous hidden communication between diffusion-LM agents and show that when information is transferred can matter more than how many times agents exchange it.",
+      "url": "https://arxiv.org/abs/2610.28905",
+      "hf_upvotes": 7,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.29934",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "authors": [
+        "Nithin Sivakumaran",
+        "Ali Payani",
+        "Hyunji Lee",
+        "Mohit Bansal",
+        "Elias Stengel-Eskin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "abstract": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state. To address this challenge, we introduce ToM2Vec, which learns to form abstract theories-of-mind in a rich latent space via a fixed budget of continuous reasoning tokens. During training, supervision for these tokens comes from the partner's actual thoughts, which the ToM tokens are trained to abstract and match. At test-time, ToM tokens are generated by each agent and act as conditioners for that agent's thoughts and actions. Across several environments covering collaborative, competitive, and mixed-motive settings (Overcooked-AI, multiparty negotiation, Decrypto, Hanabi, and Collab Escape/Capture), we evaluate ToM2Vec's ability to support multi-agent interactions and collaboration, finding consistent improvements over the base model and a variety of competitive trained and prompted baselines. We show that latent reasoning is critical, with performance dropping when reasoning is expressed in text. Moreover, we show that ToM2Vec training generalizes to partner model families not seen at train-time, including a proprietary model (GPT-5.4). In our analysis, we provide evidence that the latent tokens encode a ToM, rather than task-specific information: ToM2Vec's tokens improve the agent's ability to directly answer questions about partner beliefs, desires, and next actions.",
+      "url": "https://arxiv.org/abs/2610.29934",
+      "hf_upvotes": 7,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28909",
+      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+      "authors": [
+        "Alan-Barsag Gazzaev",
+        "Alexey Gavrilov",
+        "Mikhail Mozikov",
+        "Sergey Muravyov"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, an open multi-agent deep research framework that places a diffusion language model (dLLM) at the core of every stage, and measure how a diffusion backbone changes latency and report quality. Holding the agentic scaffold, retrieval code, prompts, and evaluation fixed, we swap the backbone between an open diffusion model and a comparable AR model. Across 100 Deep Research Bench tasks, the diffusion backbone is roughly 6 times faster end-to-end, driven by order-of-magnitude reductions in planning and writing. We further introduce dFast, a decomposition mode that reads intermediate denoising states and extracts subqueries before generation finishes, providing a 1.99 times median speedup for decomposition in isolation with no loss of report quality. On the benchmark's RACE rubric, dFast obtains the best overall score among the three configurations. Finally, in a public system-level leaderboard snapshot, an instance built on a stronger diffusion model ranks above several commercial systems. We release DiffResearch under an Apache-2.0 license.",
+      "url": "https://arxiv.org/abs/2610.28909",
+      "hf_upvotes": 6,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.23344",
+      "title": "Language Models Learn to Improve Language Models",
+      "authors": [
+        "Minhua Lin",
+        "Zijun Wang",
+        "Zewen Liu",
+        "Zhaotian Weng",
+        "Bing He",
+        "Zhan Shi",
+        "Benoit Dumoulin",
+        "Xiang Zhang",
+        "Suhang Wang",
+        "Hanqing Lu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, training such an ability with real feedback is expensive: reinforcement learning (RL) requires evaluating tens of thousands of proposals, each potentially requiring a full model-training run. Even at ten GPU-hours per run, reward collection alone would consume hundreds of thousands of GPU-hours, motivating a cheaper surrogate. Second, surrogate feedback can become unreliable as policy optimization favors overestimated proposals when the proposal distribution shifts. To address these challenges, we propose LM2LM, which trains LLMs with RL to generate effective LM improvement proposals. To provide scalable feedback, we use a research world model (RWM), a frozen LLM that predicts proposal gains from real experimental records provided in context, as the reward model for RL. To maintain feedback reliability, we periodically execute current-policy proposals ranked highly by the RWM and add their measured outcomes to its context. Across eight autoregressive and diffusion LM development environments, real-execution evaluations on held-out tasks show that LM2LM enables Qwen3.8-27B to outperform GPT-6-sol, even when GPT-6-sol is given 300 real experimental records in context, while requiring 33% lower data-generation cost. LM2LM also generalizes to a model family unseen during training.",
+      "url": "https://arxiv.org/abs/2610.23344",
+      "hf_upvotes": 5,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.28679",
+      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+      "authors": [
+        "Jianing Yin",
+        "Ziyi Chen",
+        "Hao Wang",
+        "Yiyou Sun",
+        "Zijian Jin",
+        "Dawn Song",
+        "Daoan Zhang"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training data. We study verifier generation: from the instruction and environment available for solving a task, an agent writes an executable verifier that must accept every valid solution and reject invalid ones. We introduce VerifierBench, a benchmark of 222 tasks from six agent benchmarks spanning tool-call, state-based, and code verification, with 4,993 hidden test cases that include alternative valid solutions and attacks; Verifier4Verifier (V4V), a six-check audit, screens its source verifiers and test suites. Across 19 models in a common agent harness, normalized balanced accuracy ranges from 10.6 to 62.1, with generated verifiers consistently rejecting invalid solutions more reliably than they accept valid ones. This apparent strength can mask overly restrictive verification: most false rejections in the analyzed records come from verifiers that accept no tested solution to a task. Case studies reveal unsupported assumptions about solution formats, tool use, and code changes that exclude valid solutions. These errors survive self-testing because agents test solutions that share the verifier's mistaken assumptions, or submit verifiers without confirming that any correct solution passes. These findings suggest testing both whether a verifier accepts a correct solution and whether it accepts other solutions permitted by the task. The project page and dataset are publicly available.",
+      "url": "https://arxiv.org/abs/2610.28679",
+      "hf_upvotes": 4,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.30066",
+      "title": "Looped Uniform Diffusion Language Models",
+      "authors": [
+        "Saiteja Utpala",
+        "Chieh-Hsin Lai",
+        "Yuki Mitsufuji",
+        "Praneeth Vepakomma"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised. During training, UDLMs must denoise from a context that may itself be unreliable, whereas masked diffusion language models (MDLMs) always condition on a clean context. This challenging training objective makes UDLMs more FLOP-intensive to train than MDLMs, but it yields stronger downstream reasoning performance. Recently, selective looping, which recursively applies a few early Transformer layers within each denoising step, has been shown to improve training efficiency in MDLMs under an iso-FLOP budget. We investigate looping in UDLMs while keeping the training objective and sampler unchanged. We find that looping significantly improves training efficiency: looped UDLMs reach the validation NLL of a non-looped UDLM trained on about 0.5 trillion tokens with up to 2.8x fewer training FLOPs on OpenWebText and 3.3x fewer on FineWeb-Edu. We also find that, at a matched NFE budget, looped UDLMs reach up to 9.8% lower generation perplexity than the non-looped UDLM, with most gains achieved at moderate loop counts. Finally, we study different loop-count distributions and find that sampling smaller loop counts more frequently during training improves inference efficiency: on downstream tasks, this strategy uses 12% fewer loops than uniform loop-count sampling without degrading accuracy.",
+      "url": "https://arxiv.org/abs/2610.30066",
+      "hf_upvotes": 4,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2610.30113",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "authors": [
+        "Houde Qian",
+        "Zheng Jiang",
+        "Wenyi Li",
+        "Chenxi Xu",
+        "Xinjie Lin",
+        "Yuzhao Peng",
+        "Ruoyu Han",
+        "Youjie Zheng",
+        "Kaisen Yang",
+        "Qinhuai Na",
+        "You Fu",
+        "Calvin Xiao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "abstract": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and produce strategies that work beyond the research period. We introduce Quant-Arena, a benchmark and public leaderboard for end-to-end quantitative research on real A-share market data. A model constructs features and stock-scoring code, receives feedback only on 2022--2023, and freezes one strategy for assessment on the sealed year 2024. A cash-account evaluator applies trading constraints and costs, including market impact estimated from a simulated order book. Scores are dominated by realized excess return and complemented by signal quality and the diversity of features used by the strategy. We evaluate nine frontier models, among which GPT-6 Astra scores highest; yet no model beats the equal-weight market in 2024. Quant-Arena is open to submissions from any model or agent harness.",
+      "url": "https://arxiv.org/abs/2610.30113",
+      "hf_upvotes": 4,
+      "source": "huggingface"
+    }
+  ]
+}
