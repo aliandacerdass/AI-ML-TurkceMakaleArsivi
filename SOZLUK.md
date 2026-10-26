@@ -21,6 +21,7 @@
 | causal intervention | nedensel müdahale | Bir iç bileşeni değiştirip çıktıya etkisini ölçme |
 | chain-of-thought | düşünce zinciri | |
 | computer-use agent | bilgisayar kullanan ajan | Ekranı okuyup klavye ve fare eylemleriyle çalışan ajan |
+| confidentiality | gizlilik | Hassas bilginin yetkisiz kişilere açılmaması |
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
 | context window | bağlam penceresi | |
 | continual learning | sürekli öğrenme | Yeni görevleri sırayla öğrenirken eskileri korumaya çalışma |
@@ -31,6 +32,7 @@
 | deception | aldatma | Ajanın doğru olmayan izlenim yaratması |
 | decision model | karar modeli | Metin üretmeden, tek geçişte her seçenek için olasılık veren model |
 | demonstration | gösterim | Robotikte öğretici örnek |
+| dense retrieval | yoğun erişim | Metinleri gömme vektörleriyle eşleştirerek getirme |
 | diffusion model | difüzyon modeli | |
 | directed acyclic graph (DAG) | yönlü döngüsüz çizge | Düğümler arası bağımlılık gösterimi |
 | distillation | damıtma | Bilgi damıtma (*knowledge distillation*) |
@@ -71,6 +73,7 @@
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
+| model predictive control (MPC) | model öngörülü denetim | Gelecek durumları tahmin edip eylem dizisini planlayan denetim yöntemi |
 | multi-agent system | çoklu ajan sistemi | |
 | multimodal | çok kipli | Metin + görüntü + ses gibi |
 | navigation | gezinme | Robotikte |
@@ -98,6 +101,7 @@
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
+| reranking | yeniden sıralama | Getirilen adayları daha ayrıntılı bir ölçütle yeniden dizme |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
 | retrieval-augmented generation (RAG) | erişimle zenginleştirilmiş üretim | Modelin yanıtı dış kaynaklardan getirilen bilgiyle üretmesi |

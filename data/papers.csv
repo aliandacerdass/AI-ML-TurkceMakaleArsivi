@@ -66,3 +66,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.28698,2026-10-23,Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds,cs.AI;cs.LG,51,ozetler/2026/10/2026-10-23.md
 2610.29680,2026-10-23,TraceForge: Distilling with Your Own Thinking,cs.AI;cs.LG,19,ozetler/2026/10/2026-10-23.md
 2610.29722,2026-10-23,Retrieval Augmented Generation Compositionality,cs.AI,27,ozetler/2026/10/2026-10-23.md
+2610.29677,2026-10-26,Toward Recursive Self-Improvement in Physical AI,cs.AI,59,ozetler/2026/10/2026-10-26.md
+2610.27851,2026-10-26,LaLa-World: Scaling Latent World Models with Natural Language Actions,cs.LG,38,ozetler/2026/10/2026-10-26.md
+2610.27598,2026-10-26,Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE,cs.AI,34,ozetler/2026/10/2026-10-26.md
+2610.30418,2026-10-26,Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems,cs.AI,23,ozetler/2026/10/2026-10-26.md
+2610.30755,2026-10-26,Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought,cs.AI,23,ozetler/2026/10/2026-10-26.md
