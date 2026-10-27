@@ -112,6 +112,7 @@
 | scaling law | ölçekleme yasası | |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
+| self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
@@ -134,4 +135,5 @@
 | verifier | doğrulayıcı | Bir çıktının doğruluğunu kontrol eden bileşen |
 | vision-language model (VLM) | görü-dil modeli | |
 | vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
+| weight sharing | ağırlık paylaşımı | Birden fazla bağlantının aynı ağırlık değerini kullanması |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |

@@ -71,3 +71,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.27598,2026-10-26,Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE,cs.AI,34,ozetler/2026/10/2026-10-26.md
 2610.30418,2026-10-26,Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems,cs.AI,23,ozetler/2026/10/2026-10-26.md
 2610.30755,2026-10-26,Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought,cs.AI,23,ozetler/2026/10/2026-10-26.md
+2610.32253,2026-10-27,RSIHub: A Composable Framework for Agent-Evolution Methods,cs.AI,34,ozetler/2026/10/2026-10-27.md
+2610.27103,2026-10-27,Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs,cs.AI;cs.CL;cs.CV;cs.MM,22,ozetler/2026/10/2026-10-27.md
+2610.31931,2026-10-27,Every Weight Is a Path of Shared Discrete Decisions,cs.LG,19,ozetler/2026/10/2026-10-27.md
+2610.31066,2026-10-27,Dual Exam: Controlled Evaluation of Multimodal Agents and World Models,cs.AI,17,ozetler/2026/10/2026-10-27.md
+2610.32770,2026-10-27,On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models,cs.CL;cs.AI;cs.LG,14,ozetler/2026/10/2026-10-27.md
