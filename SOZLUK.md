@@ -3,10 +3,12 @@
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
 | adversarial training | çekişmeli eğitim | Üreteç ile ayırt edici bileşenin birbirine karşı eğitilmesi |
+| causal | nedensel | |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
+| failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
 | İngilizce | Türkçe | Not |
 |---|---|---|
@@ -79,6 +81,7 @@
 | navigation | gezinme | Robotikte |
 | negative log-likelihood (NLL) | negatif log-olabilirlik | Dil modelinin tahmin hatası ölçüsü; düşük olması iyidir |
 | on-policy distillation | on-policy damıtma | Öğrenci kendi ürettiği çıktılar üzerinden öğretmenden öğrenir |
+| optimization | eniyileme | |
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | out-of-distribution (OOD) | dağılım dışı | Eğitim verisinden belirgin biçimde farklı koşullar |
 | overfitting | aşırı öğrenme | |
@@ -92,6 +95,7 @@
 | power law | kuvvet yasası | |
 | preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
+| product quantization | çarpım nicemleme | Vektörü parçalara bölüp her parçayı ayrı kod defterine nicemleme |
 | projection | izdüşüm | Bir nesnenin ya da vektörün bir düzleme veya yöne düşen bileşeni |
 | prompt | istem (*prompt*) | |
 | prompt inoculation | istem aşılama | Eğitimde istenmeyen davranışı istemde açıkça talep ederek modelin onu içselleştirmesini azaltma |

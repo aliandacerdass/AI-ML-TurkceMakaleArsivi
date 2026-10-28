@@ -5,15 +5,15 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [28 Ekim 2026](ozetler/2026/10/2026-10-28.md) · Günlük · 5 makale
 - [27 Ekim 2026](ozetler/2026/10/2026-10-27.md) · Günlük · 5 makale
 - [26 Ekim 2026](ozetler/2026/10/2026-10-26.md) · Günlük · 5 makale
 - [25 Ekim 2026](ozetler/2026/10/2026-10-25.md) · Derin okuma · Derin Okuma: LEV: Thinking Fast and Deep with Looped Decision Models
 - [24 Ekim 2026](ozetler/2026/10/2026-10-24.md) · Haftalık özet · Haftanın Özeti
 - [23 Ekim 2026](ozetler/2026/10/2026-10-23.md) · Günlük · 4 makale
 - [22 Ekim 2026](ozetler/2026/10/2026-10-22.md) · Günlük · 4 makale
-- [21 Ekim 2026](ozetler/2026/10/2026-10-21.md) · Günlük · 4 makale
 
-Son başarılı çalışma: **26 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **28 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?

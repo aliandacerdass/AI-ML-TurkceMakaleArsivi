@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [28 Ekim 2026](ozetler/2026/10/2026-10-28.md) · Günlük · 5 makale
 - [27 Ekim 2026](ozetler/2026/10/2026-10-27.md) · Günlük · 5 makale
 - [26 Ekim 2026](ozetler/2026/10/2026-10-26.md) · Günlük · 5 makale
 - [25 Ekim 2026](ozetler/2026/10/2026-10-25.md) · Derin okuma · Derin Okuma: LEV: Thinking Fast and Deep with Looped Decision Models
