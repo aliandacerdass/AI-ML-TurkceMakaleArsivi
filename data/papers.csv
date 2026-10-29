@@ -81,3 +81,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.33956,2026-10-28,Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents,cs.LG;cs.AI,49,ozetler/2026/10/2026-10-28.md
 2610.32195,2026-10-28,Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery,cs.LG;cs.AI,30,ozetler/2026/10/2026-10-28.md
 2610.31309,2026-10-28,Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization,cs.LG,14,ozetler/2026/10/2026-10-28.md
+2610.36077,2026-10-29,The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents,cs.AI;cs.CV,533,ozetler/2026/10/2026-10-29.md
+2610.35013,2026-10-29,Multiscale Policy Optimization for Long-Horizon LLM Agents,cs.AI,374,ozetler/2026/10/2026-10-29.md
+2610.37381,2026-10-29,PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations,cs.RO;cs.CV;cs.LG,140,ozetler/2026/10/2026-10-29.md
+2610.32046,2026-10-29,Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?,cs.AI;cs.LG,101,ozetler/2026/10/2026-10-29.md
+2610.37386,2026-10-29,Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data,cs.LG;cs.AI,12,ozetler/2026/10/2026-10-29.md

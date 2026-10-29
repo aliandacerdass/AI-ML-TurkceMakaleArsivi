@@ -3,6 +3,7 @@
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
 | adversarial training | çekişmeli eğitim | Üreteç ile ayırt edici bileşenin birbirine karşı eğitilmesi |
+| calibration | kalibrasyon | Bir eşik ya da ölçeği örnek veriyle ayarlama |
 | causal | nedensel | |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
@@ -57,6 +58,7 @@
 | hallucination | halüsinasyon | Modelin uydurma bilgi üretmesi |
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
 | hidden state | gizli durum | Modelin katmanlardaki iç temsili |
+| importance sampling | önem örneklemesi | Eski politikadan alınan örnekleri yeni politikaya göre ağırlıklandırma |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
 | interpretability | yorumlanabilirlik | Modelin iç işleyişini anlaşılır kılma |
@@ -112,6 +114,7 @@
 | reward | ödül | Pekiştirmeli öğrenmede başarı sinyali |
 | reward model | ödül modeli | |
 | rollout | yanıt üretimi | Pekiştirmeli öğrenmede modelin örnek çıktı üretmesi |
+| router | yönlendirici | Girdiyi uygun modüle ya da yapılandırmaya yönlendiren bileşen |
 | rubric | puanlama ölçütü | Değerlendirmede kullanılan koşul listesi |
 | scaling law | ölçekleme yasası | |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
@@ -126,6 +129,7 @@
 | supervised fine-tuning (SFT) | denetimli ince ayar | Etiketli ya da seçilmiş örneklerle ince ayar |
 | supervised learning | denetimli öğrenme | |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
+| test-time training (TTT) | test zamanı eğitimi | Çıkarım sırasında model ağırlıklarının güncellenmesi |
 | token | token (simge) | |
 | tokenizer | token ayrıştırıcı (*tokenizer*) | Metni token'lara bölen bileşen |
 | training | eğitim | |
