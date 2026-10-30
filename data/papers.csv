@@ -86,3 +86,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.37381,2026-10-29,PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations,cs.RO;cs.CV;cs.LG,140,ozetler/2026/10/2026-10-29.md
 2610.32046,2026-10-29,Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?,cs.AI;cs.LG,101,ozetler/2026/10/2026-10-29.md
 2610.37386,2026-10-29,Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data,cs.LG;cs.AI,12,ozetler/2026/10/2026-10-29.md
+2610.35684,2026-10-30,OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images,cs.AI,47,ozetler/2026/10/2026-10-30.md
+2610.31670,2026-10-30,Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success,cs.LG,21,ozetler/2026/10/2026-10-30.md
+2610.22990,2026-10-30,PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas,cs.AI;cs.LG,14,ozetler/2026/10/2026-10-30.md
+2610.20832,2026-10-30,Amortizing Sequential Experimental Design in Reasoning LLMs,cs.LG;cs.AI,6,ozetler/2026/10/2026-10-30.md
+2610.30132,2026-10-30,LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data,cs.LG,5,ozetler/2026/10/2026-10-30.md

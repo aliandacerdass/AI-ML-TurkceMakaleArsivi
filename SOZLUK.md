@@ -3,6 +3,7 @@
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
 | adversarial training | çekişmeli eğitim | Üreteç ile ayırt edici bileşenin birbirine karşı eğitilmesi |
+| Bayesian experimental design | Bayesçi deney tasarımı | Beklenen bilgi kazancını en çoklayan deneyi seçme |
 | calibration | kalibrasyon | Bir eşik ya da ölçeği örnek veriyle ayarlama |
 | causal | nedensel | |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
@@ -61,6 +62,7 @@
 | importance sampling | önem örneklemesi | Eski politikadan alınan örnekleri yeni politikaya göre ağırlıklandırma |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
+| information gain | bilgi kazancı | Bir gözlemin belirsizliği ne kadar azalttığı |
 | interpretability | yorumlanabilirlik | Modelin iç işleyişini anlaşılır kılma |
 | jailbreak | jailbreak | Modelin güvenlik sınırlarını aşmaya yönelik saldırı; çevrilmez |
 | KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
@@ -91,6 +93,7 @@
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
 | peer review | hakem değerlendirmesi | |
 | permutation invariance | sıra değişmezliği | Girdilerin sırası değişince sonucun değişmemesi |
+| persona | persona | Kullanıcı profilini temsil eden kurgusal kimlik; çevrilmez |
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
 | post-training quantization | eğitim sonrası nicemleme | Eğitim bittikten sonra uygulanan nicemleme |
@@ -128,6 +131,7 @@
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
 | supervised fine-tuning (SFT) | denetimli ince ayar | Etiketli ya da seçilmiş örneklerle ince ayar |
 | supervised learning | denetimli öğrenme | |
+| surface normal map | yüzey normal haritası | Her pikselde yüzeyin baktığı yönü gösteren görüntü |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | test-time training (TTT) | test zamanı eğitimi | Çıkarım sırasında model ağırlıklarının güncellenmesi |
 | token | token (simge) | |
