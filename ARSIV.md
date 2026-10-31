@@ -4,6 +4,7 @@
 
 ## Ekim 2026
 
+- [31 Ekim 2026](ozetler/2026/10/2026-10-31.md) · Haftalık özet · Haftanın Özeti
 - [30 Ekim 2026](ozetler/2026/10/2026-10-30.md) · Günlük · 5 makale
 - [29 Ekim 2026](ozetler/2026/10/2026-10-29.md) · Günlük · 5 makale
 - [28 Ekim 2026](ozetler/2026/10/2026-10-28.md) · Günlük · 5 makale
