@@ -2,6 +2,10 @@
 
 > Bu dosya `scripts/build_index.py` tarafından otomatik üretilir. Elle düzenlemeyin.
 
+## Kasım 2026
+
+- [1 Kasım 2026](ozetler/2026/11/2026-11-01.md) · Derin okuma · Derin Okuma: The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents
+
 ## Ekim 2026
 
 - [31 Ekim 2026](ozetler/2026/10/2026-10-31.md) · Haftalık özet · Haftanın Özeti

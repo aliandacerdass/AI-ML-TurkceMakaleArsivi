@@ -51,6 +51,7 @@
 | forward pass | ileri geçiş | Girdinin modelden bir kez geçirilip çıktı hesaplanması |
 | forward-deployed engineer (FDE) | sahada konuşlu mühendis | Müşteri ortamında çözüm kurup teslim eden mühendis |
 | foundation model | temel model | |
+| frozen model | dondurulmuş model | Ağırlıkları değiştirilmeyen model |
 | gating | kapılama | Bir sinyali koşula göre geçirme ya da bastırma |
 | generalization | genelleme | |
 | gradient | gradyan | |
