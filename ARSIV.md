@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [2 Kasım 2026](ozetler/2026/11/2026-11-02.md) · Günlük · 5 makale
 - [1 Kasım 2026](ozetler/2026/11/2026-11-01.md) · Derin okuma · Derin Okuma: The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents
 
 ## Ekim 2026

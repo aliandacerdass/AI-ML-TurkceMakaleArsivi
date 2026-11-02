@@ -82,6 +82,7 @@
 | mixture of experts (MoE) | uzmanlar karışımı | |
 | model predictive control (MPC) | model öngörülü denetim | Gelecek durumları tahmin edip eylem dizisini planlayan denetim yöntemi |
 | multi-agent system | çoklu ajan sistemi | |
+| multi-token prediction (MTP) | çoklu belirteç tahmini | Birden fazla sonraki belirtecin aynı anda tahmin edilmesi |
 | multimodal | çok kipli | Metin + görüntü + ses gibi |
 | navigation | gezinme | Robotikte |
 | negative log-likelihood (NLL) | negatif log-olabilirlik | Dil modelinin tahmin hatası ölçüsü; düşük olması iyidir |
@@ -94,6 +95,7 @@
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
 | peer review | hakem değerlendirmesi | |
 | permutation invariance | sıra değişmezliği | Girdilerin sırası değişince sonucun değişmemesi |
+| perplexity | şaşkınlık | Dil modelinin tahmin başarısını gösteren ölçü; düşük olması iyi |
 | persona | persona | Kullanıcı profilini temsil eden kurgusal kimlik; çevrilmez |
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
@@ -111,6 +113,7 @@
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
+| representation | temsil | Verinin modelin içinde sayısal olarak kodlanmış hâli |
 | reranking | yeniden sıralama | Getirilen adayları daha ayrıntılı bir ölçütle yeniden dizme |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
@@ -126,6 +129,7 @@
 | self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
+| speculative decoding | spekülatif kodlama | Taslak belirteçleri önceden üretip doğrulayarak çıkarımı hızlandırma |
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
@@ -150,3 +154,4 @@
 | vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
 | weight sharing | ağırlık paylaşımı | Birden fazla bağlantının aynı ağırlık değerini kullanması |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |
+| zero-shot | sıfır örnekli | Göreve özel örnek görmeden değerlendirme |

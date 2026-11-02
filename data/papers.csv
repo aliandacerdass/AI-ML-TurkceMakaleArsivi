@@ -91,3 +91,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.22990,2026-10-30,PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas,cs.AI;cs.LG,14,ozetler/2026/10/2026-10-30.md
 2610.20832,2026-10-30,Amortizing Sequential Experimental Design in Reasoning LLMs,cs.LG;cs.AI,6,ozetler/2026/10/2026-10-30.md
 2610.30132,2026-10-30,LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data,cs.LG,5,ozetler/2026/10/2026-10-30.md
+2610.36671,2026-11-02,Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs,cs.AI;cs.LG,106,ozetler/2026/11/2026-11-02.md
+2610.38568,2026-11-02,A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement,cs.AI,66,ozetler/2026/11/2026-11-02.md
+2610.39302,2026-11-02,Proving and Improving the Platonic Representation Hypothesis with JEPAs,cs.AI,66,ozetler/2026/11/2026-11-02.md
+2610.37161,2026-11-02,WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training,cs.AI,38,ozetler/2026/11/2026-11-02.md
+2610.38331,2026-11-02,Multi-Token Prediction Done Right,cs.LG,19,ozetler/2026/11/2026-11-02.md
