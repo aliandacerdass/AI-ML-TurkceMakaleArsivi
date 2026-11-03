@@ -9,6 +9,7 @@
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
+| distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
@@ -112,6 +113,7 @@
 | reasoning | akıl yürütme | |
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
+| regret | pişmanlık | Seçilen eylemin en iyi seçeneğe göre kaybı |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | representation | temsil | Verinin modelin içinde sayısal olarak kodlanmış hâli |
 | reranking | yeniden sıralama | Getirilen adayları daha ayrıntılı bir ölçütle yeniden dizme |
@@ -130,6 +132,7 @@
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | speculative decoding | spekülatif kodlama | Taslak belirteçleri önceden üretip doğrulayarak çıkarımı hızlandırma |
+| speech-language model | konuşma-dil modeli | Konuşmayı doğrudan işleyen dil modeli |
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |

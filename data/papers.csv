@@ -96,3 +96,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.39302,2026-11-02,Proving and Improving the Platonic Representation Hypothesis with JEPAs,cs.AI,66,ozetler/2026/11/2026-11-02.md
 2610.37161,2026-11-02,WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training,cs.AI,38,ozetler/2026/11/2026-11-02.md
 2610.38331,2026-11-02,Multi-Token Prediction Done Right,cs.LG,19,ozetler/2026/11/2026-11-02.md
+2610.36545,2026-11-03,FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation,cs.AI,112,ozetler/2026/11/2026-11-03.md
+2610.22740,2026-11-03,R$^2$Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop,cs.AI,90,ozetler/2026/11/2026-11-03.md
+2610.39497,2026-11-03,Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?,cs.AI,55,ozetler/2026/11/2026-11-03.md
+2610.40738,2026-11-03,"Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",cs.LG,33,ozetler/2026/11/2026-11-03.md
+2610.37481,2026-11-03,Follow the Gradient: Tracing Safety Degradation Back to Training Data,cs.LG;cs.AI,27,ozetler/2026/11/2026-11-03.md
