@@ -30,6 +30,7 @@
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
 | context window | bağlam penceresi | |
 | continual learning | sürekli öğrenme | Yeni görevleri sırayla öğrenirken eskileri korumaya çalışma |
+| contrastive learning | karşıtsal öğrenme | Benzer örnekleri yaklaştırıp farklıları uzaklaştıran eğitim |
 | counterfactual | karşıolgusal | "Şöyle olsaydı ne olurdu" türü akıl yürütme |
 | credit assignment | kredi ataması | Sonuçtaki başarının hangi adıma ya da token'a ait olduğunu belirleme |
 | critic | eleştirmen | Pekiştirmeli öğrenmede değer tahmini yapan bileşen |

@@ -5,15 +5,15 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [4 Kasım 2026](ozetler/2026/11/2026-11-04.md) · Günlük · 5 makale
 - [3 Kasım 2026](ozetler/2026/11/2026-11-03.md) · Günlük · 5 makale
 - [2 Kasım 2026](ozetler/2026/11/2026-11-02.md) · Günlük · 5 makale
 - [1 Kasım 2026](ozetler/2026/11/2026-11-01.md) · Derin okuma · Derin Okuma: The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents
 - [31 Ekim 2026](ozetler/2026/10/2026-10-31.md) · Haftalık özet · Haftanın Özeti
 - [30 Ekim 2026](ozetler/2026/10/2026-10-30.md) · Günlük · 5 makale
 - [29 Ekim 2026](ozetler/2026/10/2026-10-29.md) · Günlük · 5 makale
-- [28 Ekim 2026](ozetler/2026/10/2026-10-28.md) · Günlük · 5 makale
 
-Son başarılı çalışma: **2 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **3 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?

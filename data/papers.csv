@@ -101,3 +101,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2610.39497,2026-11-03,Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?,cs.AI,55,ozetler/2026/11/2026-11-03.md
 2610.40738,2026-11-03,"Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",cs.LG,33,ozetler/2026/11/2026-11-03.md
 2610.37481,2026-11-03,Follow the Gradient: Tracing Safety Degradation Back to Training Data,cs.LG;cs.AI,27,ozetler/2026/11/2026-11-03.md
+2611.03126,2026-11-04,CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements,cs.AI,94,ozetler/2026/11/2026-11-04.md
+2611.02074,2026-11-04,SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training,cs.AI;cs.SE,34,ozetler/2026/11/2026-11-04.md
+2611.02112,2026-11-04,Order-Only On-Policy Distillation,cs.LG;cs.CL,28,ozetler/2026/11/2026-11-04.md
+2611.00172,2026-11-04,From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings,cs.CL;cs.AI,22,ozetler/2026/11/2026-11-04.md
+2611.01815,2026-11-04,When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?,cs.CV;cs.LG,20,ozetler/2026/11/2026-11-04.md
