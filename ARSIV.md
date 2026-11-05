@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [5 Kasım 2026](ozetler/2026/11/2026-11-05.md) · Günlük · 5 makale
 - [4 Kasım 2026](ozetler/2026/11/2026-11-04.md) · Günlük · 5 makale
 - [3 Kasım 2026](ozetler/2026/11/2026-11-03.md) · Günlük · 5 makale
 - [2 Kasım 2026](ozetler/2026/11/2026-11-02.md) · Günlük · 5 makale

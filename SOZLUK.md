@@ -10,6 +10,7 @@
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
 | distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
+| embodiment | beden | Robotun ya da insanın fiziksel gövde türü |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
@@ -72,6 +73,7 @@
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
+| latent action | örtük eylem | Videodan çıkarılan, gövdeden bağımsız kompakt eylem temsili |
 | latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
 | linear attention | doğrusal dikkat | Sabit boyutlu yinelemeli durum kullanan dikkat türü |
 | linear probe | doğrusal sonda | İç temsillerden bilgi okumaya çalışan basit doğrusal sınıflandırıcı |
@@ -93,6 +95,7 @@
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | out-of-distribution (OOD) | dağılım dışı | Eğitim verisinden belirgin biçimde farklı koşullar |
 | overfitting | aşırı öğrenme | |
+| overthinking | aşırı düşünme | Yeterli bilgi edinildikten sonra da akıl yürütmeye devam etme |
 | parameter | parametre | |
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
 | peer review | hakem değerlendirmesi | |

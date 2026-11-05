@@ -106,3 +106,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.02112,2026-11-04,Order-Only On-Policy Distillation,cs.LG;cs.CL,28,ozetler/2026/11/2026-11-04.md
 2611.00172,2026-11-04,From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings,cs.CL;cs.AI,22,ozetler/2026/11/2026-11-04.md
 2611.01815,2026-11-04,When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?,cs.CV;cs.LG,20,ozetler/2026/11/2026-11-04.md
+2611.04814,2026-11-05,"Think Less, Locally: Local Preference Learning for Reasoning Compression",cs.AI;cs.CL,65,ozetler/2026/11/2026-11-05.md
+2611.02737,2026-11-05,MoviEdit: Long-form Multi-Shot Video Editing Made Easy,cs.CV;cs.AI;cs.LG,65,ozetler/2026/11/2026-11-05.md
+2611.05377,2026-11-05,DreamX: Video Diffusion Model is a Universal Latent Action Learner,cs.CV;cs.AI;cs.RO,51,ozetler/2026/11/2026-11-05.md
+2611.02497,2026-11-05,RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild,cs.RO;cs.AI,44,ozetler/2026/11/2026-11-05.md
+2611.03233,2026-11-05,"Axion 1.0: Open Agent Foundation Models, Simplified",cs.AI,40,ozetler/2026/11/2026-11-05.md
