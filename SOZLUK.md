@@ -7,6 +7,7 @@
 | calibration | kalibrasyon | Bir eşik ya da ölçeği örnek veriyle ayarlama |
 | causal | nedensel | |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
+| codebook | kod defteri | Vektör nicemlemede kullanılan temsilci vektörler kümesi |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
 | distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
@@ -14,6 +15,7 @@
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
+| group relative policy optimization (GRPO) | grup göreli politika optimizasyonu | Ödülleri aynı istemden üretilen grup içinde göreli karşılaştıran politika güncelleme yöntemi |
 | İngilizce | Türkçe | Not |
 |---|---|---|
 | ablation study | ablasyon çalışması | Bileşenleri tek tek çıkararak etkilerini ölçme |
@@ -108,6 +110,7 @@
 | power law | kuvvet yasası | |
 | preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
+| process supervision | süreç denetimi | Yalnızca sonucu değil ara adımları da değerlendiren denetim sinyali |
 | product quantization | çarpım nicemleme | Vektörü parçalara bölüp her parçayı ayrı kod defterine nicemleme |
 | projection | izdüşüm | Bir nesnenin ya da vektörün bir düzleme veya yöne düşen bileşeni |
 | prompt | istem (*prompt*) | |
@@ -146,6 +149,7 @@
 | surface normal map | yüzey normal haritası | Her pikselde yüzeyin baktığı yönü gösteren görüntü |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | test-time training (TTT) | test zamanı eğitimi | Çıkarım sırasında model ağırlıklarının güncellenmesi |
+| throughput | işlem hacmi | Birim sürede işlenen istek ya da token sayısı |
 | token | token (simge) | |
 | tokenizer | token ayrıştırıcı (*tokenizer*) | Metni token'lara bölen bileşen |
 | training | eğitim | |

@@ -111,3 +111,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.05377,2026-11-05,DreamX: Video Diffusion Model is a Universal Latent Action Learner,cs.CV;cs.AI;cs.RO,51,ozetler/2026/11/2026-11-05.md
 2611.02497,2026-11-05,RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild,cs.RO;cs.AI,44,ozetler/2026/11/2026-11-05.md
 2611.03233,2026-11-05,"Axion 1.0: Open Agent Foundation Models, Simplified",cs.AI,40,ozetler/2026/11/2026-11-05.md
+2611.06728,2026-11-06,Turns Matter: Advancing Streaming Video RL via Turn-Level Credit,cs.CV;cs.CL;cs.LG,83,ozetler/2026/11/2026-11-06.md
+2611.06910,2026-11-06,FrontierPhysics: Evaluating Agents for End-to-End Physics Research,cs.AI,48,ozetler/2026/11/2026-11-06.md
+2611.06483,2026-11-06,What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?,cs.LG;cs.CL,34,ozetler/2026/11/2026-11-06.md
+2611.05609,2026-11-06,On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation,cs.LG,16,ozetler/2026/11/2026-11-06.md
+2611.05304,2026-11-06,LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers,cs.LG;cs.AI;cs.CL,8,ozetler/2026/11/2026-11-06.md
