@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [8 Kasım 2026](ozetler/2026/11/2026-11-08.md) · Derin okuma · Derin Okuma: Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs
 - [7 Kasım 2026](ozetler/2026/11/2026-11-07.md) · Haftalık özet · Haftanın Özeti
 - [6 Kasım 2026](ozetler/2026/11/2026-11-06.md) · Günlük · 5 makale
 - [5 Kasım 2026](ozetler/2026/11/2026-11-05.md) · Günlük · 5 makale
