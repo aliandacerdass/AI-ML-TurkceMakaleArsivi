@@ -116,3 +116,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.06483,2026-11-06,What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?,cs.LG;cs.CL,34,ozetler/2026/11/2026-11-06.md
 2611.05609,2026-11-06,On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation,cs.LG,16,ozetler/2026/11/2026-11-06.md
 2611.05304,2026-11-06,LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers,cs.LG;cs.AI;cs.CL,8,ozetler/2026/11/2026-11-06.md
+2611.05376,2026-11-09,From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence,cs.CL;cs.AI,119,ozetler/2026/11/2026-11-09.md
+2611.04277,2026-11-09,Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training,cs.AI,66,ozetler/2026/11/2026-11-09.md
+2611.07392,2026-11-09,WeLM-Image: A Unified Image Generation Model towards Visual Intelligence,cs.CV;cs.AI,44,ozetler/2026/11/2026-11-09.md
+2611.08376,2026-11-09,Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout,cs.LG,12,ozetler/2026/11/2026-11-09.md
+2611.08089,2026-11-09,SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization,cs.LG,8,ozetler/2026/11/2026-11-09.md

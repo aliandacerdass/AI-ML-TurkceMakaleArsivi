@@ -51,6 +51,7 @@
 | encoder / decoder | kodlayıcı / kod çözücü | |
 | evaluation | değerlendirme | |
 | fact-checking | doğruluk denetimi | Bir ifadenin kaynağa göre doğru olup olmadığını kontrol etme |
+| feed-forward network | ileri beslemeli ağ | Girdiyi katmanlardan tek yönde geçiren sinir ağı bölümü |
 | fine-tuning | ince ayar | |
 | forgetting | unutma | Yeni öğrenirken eski bilginin kaybolması |
 | forward pass | ileri geçiş | Girdinin modelden bir kez geçirilip çıktı hesaplanması |
@@ -149,6 +150,7 @@
 | surface normal map | yüzey normal haritası | Her pikselde yüzeyin baktığı yönü gösteren görüntü |
 | sycophancy | dalkavukluk | Modelin doğruluk yerine kullanıcıya hoş görüneni söylemesi |
 | test-time training (TTT) | test zamanı eğitimi | Çıkarım sırasında model ağırlıklarının güncellenmesi |
+| text-to-image generation | metinden görüntü üretimi | Metin açıklamasından görüntü oluşturma |
 | throughput | işlem hacmi | Birim sürede işlenen istek ya da token sayısı |
 | token | token (simge) | |
 | tokenizer | token ayrıştırıcı (*tokenizer*) | Metni token'lara bölen bileşen |
