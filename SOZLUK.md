@@ -23,6 +23,7 @@
 | agent | ajan | |
 | alignment | hizalama | Modelin insan niyet/değerleriyle uyumu |
 | attention | dikkat (mekanizması) | |
+| automatic speech recognition (ASR) | otomatik konuşma tanıma | Konuşmayı metne çeviren sistem |
 | autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
 | benchmark | kıyaslama testi | İlk geçişte; sonra "benchmark" da kullanılabilir |
 | brain encoding | beyin kodlama | Uyarana verilen sinirsel tepkiyi tahmin etme |
@@ -87,6 +88,7 @@
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
+| model merging | model birleştirme | Ayrı modellerin parametrelerini doğrudan birleştirerek tek model elde etme |
 | model predictive control (MPC) | model öngörülü denetim | Gelecek durumları tahmin edip eylem dizisini planlayan denetim yöntemi |
 | multi-agent system | çoklu ajan sistemi | |
 | multi-token prediction (MTP) | çoklu belirteç tahmini | Birden fazla sonraki belirtecin aynı anda tahmin edilmesi |

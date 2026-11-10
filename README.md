@@ -5,15 +5,15 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [10 Kasım 2026](ozetler/2026/11/2026-11-10.md) · Günlük · 5 makale
 - [9 Kasım 2026](ozetler/2026/11/2026-11-09.md) · Günlük · 5 makale
 - [8 Kasım 2026](ozetler/2026/11/2026-11-08.md) · Derin okuma · Derin Okuma: Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs
 - [7 Kasım 2026](ozetler/2026/11/2026-11-07.md) · Haftalık özet · Haftanın Özeti
 - [6 Kasım 2026](ozetler/2026/11/2026-11-06.md) · Günlük · 5 makale
 - [5 Kasım 2026](ozetler/2026/11/2026-11-05.md) · Günlük · 5 makale
 - [4 Kasım 2026](ozetler/2026/11/2026-11-04.md) · Günlük · 5 makale
-- [3 Kasım 2026](ozetler/2026/11/2026-11-03.md) · Günlük · 5 makale
 
-Son başarılı çalışma: **9 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **10 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?

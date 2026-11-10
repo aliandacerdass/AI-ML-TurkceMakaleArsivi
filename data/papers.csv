@@ -121,3 +121,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.07392,2026-11-09,WeLM-Image: A Unified Image Generation Model towards Visual Intelligence,cs.CV;cs.AI,44,ozetler/2026/11/2026-11-09.md
 2611.08376,2026-11-09,Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout,cs.LG,12,ozetler/2026/11/2026-11-09.md
 2611.08089,2026-11-09,SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization,cs.LG,8,ozetler/2026/11/2026-11-09.md
+2611.03953,2026-11-10,P$^2$-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors,cs.LG;cs.AI,45,ozetler/2026/11/2026-11-10.md
+2611.06043,2026-11-10,Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription,cs.CL;cs.AI;cs.SD,35,ozetler/2026/11/2026-11-10.md
+2611.08175,2026-11-10,PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?,cs.AI,31,ozetler/2026/11/2026-11-10.md
+2611.01182,2026-11-10,Fast and Exact Relative-Position Attention via Structure-Aware Kernels,cs.LG;cs.DC,19,ozetler/2026/11/2026-11-10.md
+2611.09113,2026-11-10,Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use,cs.CR;cs.LG,6,ozetler/2026/11/2026-11-10.md
