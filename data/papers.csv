@@ -126,3 +126,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.08175,2026-11-10,PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?,cs.AI,31,ozetler/2026/11/2026-11-10.md
 2611.01182,2026-11-10,Fast and Exact Relative-Position Attention via Structure-Aware Kernels,cs.LG;cs.DC,19,ozetler/2026/11/2026-11-10.md
 2611.09113,2026-11-10,Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use,cs.CR;cs.LG,6,ozetler/2026/11/2026-11-10.md
+2611.10771,2026-11-11,WorldFoundry: Towards Unified Infrastructure for World Intelligence,cs.CV;cs.AI,54,ozetler/2026/11/2026-11-11.md
+2611.12762,2026-11-11,Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery,cs.AI,53,ozetler/2026/11/2026-11-11.md
+2611.08452,2026-11-11,ReproBridge: Building Reproducibility into ML Research Artifacts,cs.AI,30,ozetler/2026/11/2026-11-11.md
+2611.10304,2026-11-11,Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages,cs.SE;cs.AI,20,ozetler/2026/11/2026-11-11.md
+2611.11450,2026-11-11,How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?,cs.LG;cs.AI,11,ozetler/2026/11/2026-11-11.md

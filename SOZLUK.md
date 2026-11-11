@@ -87,6 +87,7 @@
 | low-rank adapter (LoRA) | düşük ranklı adaptör | Ağırlıklara düşük ranklı bir ek öğrenen hafif ince ayar yöntemi |
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
+| metacognition | üstbiliş | Sistemin kendi bilgisini ve sürecini izleyip düzenlemesi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
 | model merging | model birleştirme | Ayrı modellerin parametrelerini doğrudan birleştirerek tek model elde etme |
 | model predictive control (MPC) | model öngörülü denetim | Gelecek durumları tahmin edip eylem dizisini planlayan denetim yöntemi |
@@ -126,6 +127,7 @@
 | regret | pişmanlık | Seçilen eylemin en iyi seçeneğe göre kaybı |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | representation | temsil | Verinin modelin içinde sayısal olarak kodlanmış hâli |
+| reproducibility | yeniden üretilebilirlik | Bir deneyin aynı yöntemle yeniden yapılıp sonucun elde edilebilmesi |
 | reranking | yeniden sıralama | Getirilen adayları daha ayrıntılı bir ölçütle yeniden dizme |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
