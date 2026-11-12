@@ -121,6 +121,7 @@
 | prompt inoculation | istem aşılama | Eğitimde istenmeyen davranışı istemde açıkça talep ederek modelin onu içselleştirmesini azaltma |
 | pruning | budama | Modelden önemsiz parametreleri çıkarma |
 | quantization | nicemleme | |
+| QUBO | ikili değişkenli ikinci dereceden kısıtsız eniyileme (QUBO) | Ising modeline denk ayrık eniyileme problemi biçimi |
 | reasoning | akıl yürütme | |
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
@@ -141,6 +142,7 @@
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |
+| simulated annealing | benzetimli tavlama | Sıcaklık düşürerek eniyileme çözümü arayan olasılıksal yöntem |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | speculative decoding | spekülatif kodlama | Taslak belirteçleri önceden üretip doğrulayarak çıkarımı hızlandırma |

@@ -131,3 +131,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.08452,2026-11-11,ReproBridge: Building Reproducibility into ML Research Artifacts,cs.AI,30,ozetler/2026/11/2026-11-11.md
 2611.10304,2026-11-11,Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages,cs.SE;cs.AI,20,ozetler/2026/11/2026-11-11.md
 2611.11450,2026-11-11,How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?,cs.LG;cs.AI,11,ozetler/2026/11/2026-11-11.md
+2611.14210,2026-11-12,Tree-Ising: Repairing Language Models with Bit-Level Ising Edits,cs.LG,77,ozetler/2026/11/2026-11-12.md
+2611.14033,2026-11-12,Few-Step Streaming Video Generation via Condition Shifting,cs.AI,67,ozetler/2026/11/2026-11-12.md
+2611.14320,2026-11-12,Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents,cs.AI,53,ozetler/2026/11/2026-11-12.md
+2611.12426,2026-11-12,dNaViT: Discrete Codes are General-Purpose Visual Representations,cs.AI,33,ozetler/2026/11/2026-11-12.md
+2611.14309,2026-11-12,MMDM: Measuring Massive Multitask Decision Making,cs.LG,26,ozetler/2026/11/2026-11-12.md
