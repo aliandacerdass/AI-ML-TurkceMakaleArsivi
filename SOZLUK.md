@@ -9,9 +9,11 @@
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
 | codebook | kod defteri | Vektör nicemlemede kullanılan temsilci vektörler kümesi |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
+| curriculum learning | müfredat öğrenmesi | Örnekleri kolaydan zora ya da kaynağın düzenine göre sıralayarak eğitme |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
 | distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
 | embodiment | beden | Robotun ya da insanın fiziksel gövde türü |
+| ensemble | topluluk | Birden çok modelin yanıtlarının birlikte kullanılması |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |

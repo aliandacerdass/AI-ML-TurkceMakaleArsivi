@@ -136,3 +136,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.14320,2026-11-12,Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents,cs.AI,53,ozetler/2026/11/2026-11-12.md
 2611.12426,2026-11-12,dNaViT: Discrete Codes are General-Purpose Visual Representations,cs.AI,33,ozetler/2026/11/2026-11-12.md
 2611.14309,2026-11-12,MMDM: Measuring Massive Multitask Decision Making,cs.LG,26,ozetler/2026/11/2026-11-12.md
+2610.40394,2026-11-13,Scaling Mathematical Proof Supervision from Structured Textbooks,cs.AI,40,ozetler/2026/11/2026-11-13.md
+2611.13410,2026-11-13,SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering,cs.AI;cs.LG,32,ozetler/2026/11/2026-11-13.md
+2608.22237,2026-11-13,"Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",cs.AI,18,ozetler/2026/11/2026-11-13.md
+2611.10193,2026-11-13,Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference,cs.AI,14,ozetler/2026/11/2026-11-13.md
+2611.12869,2026-11-13,Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis,cs.LG,7,ozetler/2026/11/2026-11-13.md
