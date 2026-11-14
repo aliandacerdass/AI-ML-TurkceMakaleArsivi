@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [14 Kasım 2026](ozetler/2026/11/2026-11-14.md) · Haftalık özet · Haftanın Özeti
 - [13 Kasım 2026](ozetler/2026/11/2026-11-13.md) · Günlük · 5 makale
 - [12 Kasım 2026](ozetler/2026/11/2026-11-12.md) · Günlük · 5 makale
 - [11 Kasım 2026](ozetler/2026/11/2026-11-11.md) · Günlük · 5 makale
