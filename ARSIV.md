@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [15 Kasım 2026](ozetler/2026/11/2026-11-15.md) · Derin okuma · Derin Okuma: Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents
 - [14 Kasım 2026](ozetler/2026/11/2026-11-14.md) · Haftalık özet · Haftanın Özeti
 - [13 Kasım 2026](ozetler/2026/11/2026-11-13.md) · Günlük · 5 makale
 - [12 Kasım 2026](ozetler/2026/11/2026-11-12.md) · Günlük · 5 makale

@@ -5,13 +5,13 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [15 Kasım 2026](ozetler/2026/11/2026-11-15.md) · Derin okuma · Derin Okuma: Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents
 - [14 Kasım 2026](ozetler/2026/11/2026-11-14.md) · Haftalık özet · Haftanın Özeti
 - [13 Kasım 2026](ozetler/2026/11/2026-11-13.md) · Günlük · 5 makale
 - [12 Kasım 2026](ozetler/2026/11/2026-11-12.md) · Günlük · 5 makale
 - [11 Kasım 2026](ozetler/2026/11/2026-11-11.md) · Günlük · 5 makale
 - [10 Kasım 2026](ozetler/2026/11/2026-11-10.md) · Günlük · 5 makale
 - [9 Kasım 2026](ozetler/2026/11/2026-11-09.md) · Günlük · 5 makale
-- [8 Kasım 2026](ozetler/2026/11/2026-11-08.md) · Derin okuma · Derin Okuma: Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs
 
 Son başarılı çalışma: **14 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->

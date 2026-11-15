@@ -3,6 +3,7 @@
 > Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
 | adversarial training | çekişmeli eğitim | Üreteç ile ayırt edici bileşenin birbirine karşı eğitilmesi |
+| baseline | temel yöntem | Karşılaştırma için kullanılan referans yöntem |
 | Bayesian experimental design | Bayesçi deney tasarımı | Beklenen bilgi kazancını en çoklayan deneyi seçme |
 | calibration | kalibrasyon | Bir eşik ya da ölçeği örnek veriyle ayarlama |
 | causal | nedensel | |
@@ -17,6 +18,7 @@
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
+| gain | kazanç | Belleğin başarısız görevleri başarıya çevirme oranı |
 | group relative policy optimization (GRPO) | grup göreli politika optimizasyonu | Ödülleri aynı istemden üretilen grup içinde göreli karşılaştıran politika güncelleme yöntemi |
 | İngilizce | Türkçe | Not |
 |---|---|---|
@@ -73,6 +75,7 @@
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
 | information gain | bilgi kazancı | Bir gözlemin belirsizliği ne kadar azalttığı |
+| insight | ders | Ajan belleğinde bir izden çıkarılan kısa öğüt |
 | interpretability | yorumlanabilirlik | Modelin iç işleyişini anlaşılır kılma |
 | jailbreak | jailbreak | Modelin güvenlik sınırlarını aşmaya yönelik saldırı; çevrilmez |
 | KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
@@ -83,6 +86,7 @@
 | latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
 | linear attention | doğrusal dikkat | Sabit boyutlu yinelemeli durum kullanan dikkat türü |
 | linear probe | doğrusal sonda | İç temsillerden bilgi okumaya çalışan basit doğrusal sınıflandırıcı |
+| LLM judge | LLM hakem | Çıktıları değerlendirmek için kullanılan dil modeli |
 | long-horizon | uzun soluklu | Çok sayıda adım gerektiren görevler için |
 | looped model | döngülü model | Aynı katmanları döngü içinde tekrar çalıştıran model |
 | loss function | kayıp fonksiyonu | |
@@ -127,6 +131,7 @@
 | reasoning | akıl yürütme | |
 | recurrent state | yinelemeli durum | Adımdan adıma taşınan sabit boyutlu bellek |
 | recursive self-improvement (RSI) | özyinelemeli öz-iyileştirme | Sistemin kendini iyileştirme sürecini de iyileştirmesi |
+| regression | gerileme | Belleğin başarılı görevleri başarısızlığa çevirme oranı |
 | regret | pişmanlık | Seçilen eylemin en iyi seçeneğe göre kaybı |
 | reinforcement learning (RL) | pekiştirmeli öğrenme | |
 | representation | temsil | Verinin modelin içinde sayısal olarak kodlanmış hâli |
