@@ -104,6 +104,7 @@
 | negative log-likelihood (NLL) | negatif log-olabilirlik | Dil modelinin tahmin hatası ölçüsü; düşük olması iyidir |
 | on-policy distillation | on-policy damıtma | Öğrenci kendi ürettiği çıktılar üzerinden öğretmenden öğrenir |
 | optimization | eniyileme | |
+| optimizer | optimize edici | Model ağırlıklarını gradyanla güncelleyen algoritma |
 | orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | out-of-distribution (OOD) | dağılım dışı | Eğitim verisinden belirgin biçimde farklı koşullar |
 | overfitting | aşırı öğrenme | |
@@ -146,6 +147,7 @@
 | router | yönlendirici | Girdiyi uygun modüle ya da yapılandırmaya yönlendiren bileşen |
 | rubric | puanlama ölçütü | Değerlendirmede kullanılan koşul listesi |
 | scaling law | ölçekleme yasası | |
+| second-order optimizer | ikinci mertebe optimize edici | Eğrilik bilgisini de kullanan optimize edici |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |

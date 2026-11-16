@@ -141,3 +141,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2608.22237,2026-11-13,"Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",cs.AI,18,ozetler/2026/11/2026-11-13.md
 2611.10193,2026-11-13,Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference,cs.AI,14,ozetler/2026/11/2026-11-13.md
 2611.12869,2026-11-13,Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis,cs.LG,7,ozetler/2026/11/2026-11-13.md
+2611.15777,2026-11-16,SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models,cs.AI;cs.LG,138,ozetler/2026/11/2026-11-16.md
+2611.17167,2026-11-16,"Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",cs.AI,35,ozetler/2026/11/2026-11-16.md
+2611.05984,2026-11-16,"On the Design of Hyper-Connections: Simplification, Stability, and Scalability",cs.LG,29,ozetler/2026/11/2026-11-16.md
+2611.17334,2026-11-16,Unbundling Multimodal Vision Encoding,cs.LG,18,ozetler/2026/11/2026-11-16.md
+2611.16905,2026-11-16,Factored One-sided Adam-Moment for Practical and Scalable SOAP,cs.LG,14,ozetler/2026/11/2026-11-16.md
