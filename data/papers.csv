@@ -151,3 +151,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.15789,2026-11-17,VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender,cs.AI,84,ozetler/2026/11/2026-11-17.md
 2611.12901,2026-11-17,Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding,cs.AI,35,ozetler/2026/11/2026-11-17.md
 2611.07226,2026-11-17,Loopback Transformer: Towards a Unified View of Residual Looped Transformers,cs.LG,21,ozetler/2026/11/2026-11-17.md
+2611.21072,2026-11-18,Sage S2.1 Flash Technical Report,cs.AI,87,ozetler/2026/11/2026-11-18.md
+2611.21003,2026-11-18,K2-Horizon: A Frontier Fleet of Open Source Language Models,cs.AI,73,ozetler/2026/11/2026-11-18.md
+2611.19937,2026-11-18,AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data,cs.LG,68,ozetler/2026/11/2026-11-18.md
+2611.07222,2026-11-18,SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection,cs.AI,56,ozetler/2026/11/2026-11-18.md
+2611.20218,2026-11-18,SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations,cs.AI,46,ozetler/2026/11/2026-11-18.md

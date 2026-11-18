@@ -72,6 +72,7 @@
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
 | hidden state | gizli durum | Modelin katmanlardaki iç temsili |
 | importance sampling | önem örneklemesi | Eski politikadan alınan örnekleri yeni politikaya göre ağırlıklandırma |
+| imitation learning | taklit öğrenme | Bir uzmanın ya da stratejinin davranışını örnek alarak öğrenme |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
 | information gain | bilgi kazancı | Bir gözlemin belirsizliği ne kadar azalttığı |
@@ -125,6 +126,7 @@
 | product quantization | çarpım nicemleme | Vektörü parçalara bölüp her parçayı ayrı kod defterine nicemleme |
 | projection | izdüşüm | Bir nesnenin ya da vektörün bir düzleme veya yöne düşen bileşeni |
 | prompt | istem (*prompt*) | |
+| prompt injection | istem enjeksiyonu | Dış içeriğe gizlenmiş talimatla ajanı istenmeyen eyleme yönlendirme saldırısı |
 | prompt inoculation | istem aşılama | Eğitimde istenmeyen davranışı istemde açıkça talep ederek modelin onu içselleştirmesini azaltma |
 | pruning | budama | Modelden önemsiz parametreleri çıkarma |
 | quantization | nicemleme | |
