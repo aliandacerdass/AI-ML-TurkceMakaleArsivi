@@ -26,6 +26,7 @@
 | advantage | avantaj | Pekiştirmeli öğrenmede bir eylemin beklenenden ne kadar iyi olduğu |
 | agent | ajan | |
 | alignment | hizalama | Modelin insan niyet/değerleriyle uyumu |
+| associative memory | çağrışımlı bellek | Anahtar-değer ilişkisiyle bilgiyi tabloda saklayıp geri çağıran yapı |
 | attention | dikkat (mekanizması) | |
 | automatic speech recognition (ASR) | otomatik konuşma tanıma | Konuşmayı metne çeviren sistem |
 | autoregressive model | özbağlanımlı model | Token'ları sırayla, öncekilere bakarak üreten model |
@@ -81,6 +82,7 @@
 | jailbreak | jailbreak | Modelin güvenlik sınırlarını aşmaya yönelik saldırı; çevrilmez |
 | KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
+| kernel | çekirdek | Donanım üzerinde çalışan, eniyilenebilen küçük hesaplama rutini |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
 | latent action | örtük eylem | Videodan çıkarılan, gövdeden bağımsız kompakt eylem temsili |
@@ -158,6 +160,7 @@
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | speculative decoding | spekülatif kodlama | Taslak belirteçleri önceden üretip doğrulayarak çıkarımı hızlandırma |
 | speech-language model | konuşma-dil modeli | Konuşmayı doğrudan işleyen dil modeli |
+| speedup | hızlanma | Bir yöntemin temel yönteme göre sağladığı hız artışı oranı |
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
@@ -183,5 +186,6 @@
 | vision-language model (VLM) | görü-dil modeli | |
 | vision-language-action model (VLA) | görü-dil-eylem modeli | Görüntü ve talimattan robot eylemi üreten model |
 | weight sharing | ağırlık paylaşımı | Birden fazla bağlantının aynı ağırlık değerini kullanması |
+| weight-space programming | ağırlık uzayı programlama | Ağırlıkların gradyan eğitimi olmadan elle ya da bir model tarafından yazılması |
 | world model | dünya modeli | Ortamın nasıl değişeceğini tahmin eden model |
 | zero-shot | sıfır örnekli | Göreve özel örnek görmeden değerlendirme |
