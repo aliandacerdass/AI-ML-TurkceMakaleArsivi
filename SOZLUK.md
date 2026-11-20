@@ -12,7 +12,9 @@
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | curriculum learning | müfredat öğrenmesi | Örnekleri kolaydan zora ya da kaynağın düzenine göre sıralayarak eğitme |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
+| dimensionality reduction | boyut indirgeme | Veriyi daha az sayıda özellikle temsil etme |
 | distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
+| downscaling | çözünürlük artırma | Kaba ölçekli veriden yüksek çözünürlüklü alan türetme (hava modellemede) |
 | embodiment | beden | Robotun ya da insanın fiziksel gövde türü |
 | ensemble | topluluk | Birden çok modelin yanıtlarının birlikte kullanılması |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
@@ -114,6 +116,7 @@
 | overthinking | aşırı düşünme | Yeterli bilgi edinildikten sonra da akıl yürütmeye devam etme |
 | parameter | parametre | |
 | parameter-efficient fine-tuning (PEFT) | parametre verimli ince ayar | Az sayıda parametre eğiterek uyarlama |
+| partial least squares (PLS) | kısmi en küçük kareler | Hedefle ilişkili yönleri bulan boyut indirgeme yöntemi |
 | peer review | hakem değerlendirmesi | |
 | permutation invariance | sıra değişmezliği | Girdilerin sırası değişince sonucun değişmemesi |
 | perplexity | şaşkınlık | Dil modelinin tahmin başarısını gösteren ölçü; düşük olması iyi |
@@ -124,6 +127,7 @@
 | power law | kuvvet yasası | |
 | preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
+| principal component analysis (PCA) | temel bileşen analizi | Varyansı en çok koruyan yönlere indirgeme |
 | process supervision | süreç denetimi | Yalnızca sonucu değil ara adımları da değerlendiren denetim sinyali |
 | product quantization | çarpım nicemleme | Vektörü parçalara bölüp her parçayı ayrı kod defterine nicemleme |
 | projection | izdüşüm | Bir nesnenin ya da vektörün bir düzleme veya yöne düşen bileşeni |

@@ -161,3 +161,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.22055,2026-11-19,Weight-Space Programming Doesn't Need Transformers,cs.LG;cs.AI;cs.CL,51,ozetler/2026/11/2026-11-19.md
 2611.19800,2026-11-19,Multi-Branch Transformer,cs.LG;cs.CL,45,ozetler/2026/11/2026-11-19.md
 2611.18856,2026-11-19,Self-Improvement Memory Enables Continual Recursive Self-Improvement,cs.LG;cs.AI,31,ozetler/2026/11/2026-11-19.md
+2611.23068,2026-11-20,The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements,cs.AI,35,ozetler/2026/11/2026-11-20.md
+2611.11318,2026-11-20,PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling,cs.LG;cs.AI,27,ozetler/2026/11/2026-11-20.md
+2611.17600,2026-11-20,LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning,cs.LG,20,ozetler/2026/11/2026-11-20.md
+2611.24869,2026-11-20,WorldRuler: Interactive World Modeling under Configurable Rules,cs.AI,18,ozetler/2026/11/2026-11-20.md
+2611.23388,2026-11-20,QDA: Closed-Loop LLM Quantization Design with Agents,cs.LG;cs.AI,9,ozetler/2026/11/2026-11-20.md
