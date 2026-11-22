@@ -4,6 +4,7 @@
 
 ## Kasım 2026
 
+- [22 Kasım 2026](ozetler/2026/11/2026-11-22.md) · Derin okuma · Derin Okuma: On the Design of Hyper-Connections: Simplification, Stability, and Scalability
 - [21 Kasım 2026](ozetler/2026/11/2026-11-21.md) · Haftalık özet · Haftanın Özeti
 - [20 Kasım 2026](ozetler/2026/11/2026-11-20.md) · Günlük · 5 makale
 - [19 Kasım 2026](ozetler/2026/11/2026-11-19.md) · Günlük · 5 makale

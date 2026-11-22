@@ -74,6 +74,7 @@
 | hallucination | halüsinasyon | Modelin uydurma bilgi üretmesi |
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
 | hidden state | gizli durum | Modelin katmanlardaki iç temsili |
+| hyper-connections (HC) | hiper bağlantılar | Tek artık akışı, öğrenilen okuma/yazma/karıştırma işlemleriyle yönetilen birden çok akışa genişleten mimari |
 | importance sampling | önem örneklemesi | Eski politikadan alınan örnekleri yeni politikaya göre ağırlıklandırma |
 | imitation learning | taklit öğrenme | Bir uzmanın ya da stratejinin davranışını örnek alarak öğrenme |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
@@ -98,6 +99,7 @@
 | low-rank adapter (LoRA) | düşük ranklı adaptör | Ağırlıklara düşük ranklı bir ek öğrenen hafif ince ayar yöntemi |
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
+| memory traffic | bellek trafiği | Hesaplama sırasında bellekten okunan ve belleğe yazılan veri miktarı |
 | metacognition | üstbiliş | Sistemin kendi bilgisini ve sürecini izleyip düzenlemesi |
 | mixture of experts (MoE) | uzmanlar karışımı | |
 | model merging | model birleştirme | Ayrı modellerin parametrelerini doğrudan birleştirerek tek model elde etme |
@@ -168,6 +170,8 @@
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
+| stress test | stres testi | Modeli aşırı ayarlarla (ör. çok yüksek öğrenme hızı) sınama |
+| sublayer | alt katman | Transformer bloğundaki dikkat ya da ileri beslemeli ağ bölümü |
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
 | supervised fine-tuning (SFT) | denetimli ince ayar | Etiketli ya da seçilmiş örneklerle ince ayar |
 | supervised learning | denetimli öğrenme | |
