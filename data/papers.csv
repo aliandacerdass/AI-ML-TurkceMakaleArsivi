@@ -166,3 +166,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.17600,2026-11-20,LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning,cs.LG,20,ozetler/2026/11/2026-11-20.md
 2611.24869,2026-11-20,WorldRuler: Interactive World Modeling under Configurable Rules,cs.AI,18,ozetler/2026/11/2026-11-20.md
 2611.23388,2026-11-20,QDA: Closed-Loop LLM Quantization Design with Agents,cs.LG;cs.AI,9,ozetler/2026/11/2026-11-20.md
+2611.21373,2026-11-23,WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection,cs.AI,56,ozetler/2026/11/2026-11-23.md
+2611.26444,2026-11-23,"Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",cs.AI,53,ozetler/2026/11/2026-11-23.md
+2611.26590,2026-11-23,"Probing the ""Conscious"" Mind: Selective Access and Global Workspace in Vision-Language Models",cs.AI;cs.LG,43,ozetler/2026/11/2026-11-23.md
+2611.26627,2026-11-23,RL Post-Training in Diffusion Transformers Is Activation Steering,cs.LG,20,ozetler/2026/11/2026-11-23.md
+2611.21885,2026-11-23,Language Models Can Rewrite Their Own Weights,cs.AI,20,ozetler/2026/11/2026-11-23.md

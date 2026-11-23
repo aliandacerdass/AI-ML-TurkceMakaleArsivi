@@ -36,6 +36,7 @@
 | brain encoding | beyin kodlama | Uyarana verilen sinirsel tepkiyi tahmin etme |
 | causal intervention | nedensel müdahale | Bir iç bileşeni değiştirip çıktıya etkisini ölçme |
 | chain-of-thought | düşünce zinciri | |
+| closed-loop | kapalı çevrim | Eylem sonucunun sonraki kararı etkilediği işleyiş |
 | computer-use agent | bilgisayar kullanan ajan | Ekranı okuyup klavye ve fare eylemleriyle çalışan ajan |
 | confidentiality | gizlilik | Hassas bilginin yetkisiz kişilere açılmaması |
 | context compaction | bağlam sıkıştırma | Uzun geçmişin bağlam penceresine sığması için özetlenmesi |
@@ -68,6 +69,7 @@
 | frozen model | dondurulmuş model | Ağırlıkları değiştirilmeyen model |
 | gating | kapılama | Bir sinyali koşula göre geçirme ya da bastırma |
 | generalization | genelleme | |
+| global workspace theory | küresel çalışma alanı kuramı | Bilginin paralel süreçlerden seçilip ortak alanda birleştirildiğini öne süren kuram |
 | gradient | gradyan | |
 | gradient conflict | gradyan çatışması | Farklı hedeflerden gelen güncellemelerin birbirine ters düşmesi |
 | grounding | görsel konumlandırma | Bir ifadeyi görüntüdeki nesneye ve konumuna bağlama |
@@ -160,6 +162,7 @@
 | second-order optimizer | ikinci mertebe optimize edici | Eğrilik bilgisini de kullanan optimize edici |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
+| self-rewriting | öz-yeniden yazma | Modelin kendi ağırlıklarını kendi akıl yürütmesiyle düzenlemesi |
 | self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |
 | simulated annealing | benzetimli tavlama | Sıcaklık düşürerek eniyileme çözümü arayan olasılıksal yöntem |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
@@ -170,7 +173,9 @@
 | stakeholder | paydaş | Bir işin sonucundan etkilenen ya da söz sahibi olan kişi |
 | state of the art (SOTA) | en ileri düzey | |
 | steering | yönlendirme | İç aktivasyonlara müdahale ederek model davranışını değiştirme |
+| steering vector | yönlendirme vektörü | Bloğun çıktısına eklenen sabit vektör |
 | stress test | stres testi | Modeli aşırı ayarlarla (ör. çok yüksek öğrenme hızı) sınama |
+| sub-agent | alt ajan | Ana ajanın yönettiği uzman ajan |
 | sublayer | alt katman | Transformer bloğundaki dikkat ya da ileri beslemeli ağ bölümü |
 | subspace | alt uzay | Daha büyük bir vektör uzayının içindeki daha küçük uzay |
 | supervised fine-tuning (SFT) | denetimli ince ayar | Etiketli ya da seçilmiş örneklerle ince ayar |
