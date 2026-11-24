@@ -12,14 +12,17 @@
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | curriculum learning | müfredat öğrenmesi | Örnekleri kolaydan zora ya da kaynağın düzenine göre sıralayarak eğitme |
 | denoising | gürültü giderme | Difüzyon ve akış modellerinde örneği adım adım temizleme |
+| diffusion language model | difüzyon dil modeli | Metni soldan sağa değil, gürültü gidererek bloklar hâlinde üreten dil modeli |
 | dimensionality reduction | boyut indirgeme | Veriyi daha az sayıda özellikle temsil etme |
 | distribution shift | dağılım kayması | Test verisinin eğitim verisinden farklılaşması |
+| doubly stochastic matrix | çift stokastik matris | Her satır ve sütun toplamı 1 olan, negatif olmayan matris |
 | downscaling | çözünürlük artırma | Kaba ölçekli veriden yüksek çözünürlüklü alan türetme (hava modellemede) |
 | embodiment | beden | Robotun ya da insanın fiziksel gövde türü |
 | ensemble | topluluk | Birden çok modelin yanıtlarının birlikte kullanılması |
 | exposure bias | eğitim-çıkarım farkı | Eğitimde gerçek veriyi, çıkarımda kendi tahminlerini görmekten doğan uyumsuzluk |
 | failure attribution | hata atfı | Bir hatanın hangi bileşenden kaynaklandığını belirleme |
 | flow matching | akış eşleştirme | Gürültüden veriye giden bir akış alanını öğrenen üretici yöntem |
+| full-duplex | tam çift yönlü | Dinleme ve konuşmanın aynı anda sürdüğü etkileşim |
 | gain | kazanç | Belleğin başarısız görevleri başarıya çevirme oranı |
 | group relative policy optimization (GRPO) | grup göreli politika optimizasyonu | Ödülleri aynı istemden üretilen grup içinde göreli karşılaştıran politika güncelleme yöntemi |
 | İngilizce | Türkçe | Not |
