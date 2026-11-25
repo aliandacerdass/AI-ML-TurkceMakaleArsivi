@@ -8,6 +8,7 @@
 | calibration | kalibrasyon | Bir eşik ya da ölçeği örnek veriyle ayarlama |
 | causal | nedensel | |
 | classifier-free guidance (CFG) | sınıflandırıcısız yönlendirme | Difüzyon modellerinde koşula uyumu artıran örnekleme tekniği |
+| code localizer | kod konumlandırıcı | Hatanın bulunduğu dosya ve kod parçalarını bulan model |
 | codebook | kod defteri | Vektör nicemlemede kullanılan temsilci vektörler kümesi |
 | continued pre-training (CPT) | devam eden ön eğitim | Önceden eğitilmiş modelin yeni veriyle ön eğitime devam ettirilmesi |
 | curriculum learning | müfredat öğrenmesi | Örnekleri kolaydan zora ya da kaynağın düzenine göre sıralayarak eğitme |
@@ -94,6 +95,7 @@
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
 | latent action | örtük eylem | Videodan çıkarılan, gövdeden bağımsız kompakt eylem temsili |
+| latent action model (LAM) | örtük eylem modeli | Videodan örtük eylemleri çıkaran model |
 | latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
 | linear attention | doğrusal dikkat | Sabit boyutlu yinelemeli durum kullanan dikkat türü |
 | linear probe | doğrusal sonda | İç temsillerden bilgi okumaya çalışan basit doğrusal sınıflandırıcı |
@@ -168,6 +170,7 @@
 | self-rewriting | öz-yeniden yazma | Modelin kendi ağırlıklarını kendi akıl yürütmesiyle düzenlemesi |
 | self-training | öz-eğitim | Modelin kendi ürettiği veriyle eğitilmesi |
 | simulated annealing | benzetimli tavlama | Sıcaklık düşürerek eniyileme çözümü arayan olasılıksal yöntem |
+| soft prompt | yumuşak istem | Modele girdi olarak verilen, öğrenilebilir sürekli vektör dizisi |
 | sparse autoencoder (SAE) | seyrek otokodlayıcı | Aktivasyonları az sayıda yorumlanabilir özelliğe ayıran model |
 | spatial reasoning | uzamsal akıl yürütme | Nesnelerin konumu, ilişkisi ve hareketi hakkında akıl yürütme |
 | speculative decoding | spekülatif kodlama | Taslak belirteçleri önceden üretip doğrulayarak çıkarımı hızlandırma |
