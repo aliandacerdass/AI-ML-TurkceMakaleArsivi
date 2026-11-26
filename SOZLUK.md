@@ -133,6 +133,7 @@
 | policy | politika | Pekiştirmeli öğrenmede |
 | post-training | eğitim sonrası aşama | İnce ayar, RLHF vb. |
 | post-training quantization | eğitim sonrası nicemleme | Eğitim bittikten sonra uygulanan nicemleme |
+| posterior | sonsal olasılık | Kanıt görüldükten sonra bir cevabın olasılık dağılımı |
 | power law | kuvvet yasası | |
 | preference optimization | tercih optimizasyonu | Tercih edilen ve edilmeyen yanıt çiftleriyle eğitim (ör. DPO) |
 | pretraining | ön eğitim | |
@@ -156,6 +157,7 @@
 | reproducibility | yeniden üretilebilirlik | Bir deneyin aynı yöntemle yeniden yapılıp sonucun elde edilebilmesi |
 | reranking | yeniden sıralama | Getirilen adayları daha ayrıntılı bir ölçütle yeniden dizme |
 | residual connection | artık bağlantı | Katman girdisini çıktısına ekleyen kısa yol |
+| residual stream | artık akış | Katmanlar arasında taşınan ve her alt katmanın katkı eklediği ana temsil yolu |
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
 | retrieval-augmented generation (RAG) | erişimle zenginleştirilmiş üretim | Modelin yanıtı dış kaynaklardan getirilen bilgiyle üretmesi |
 | reward | ödül | Pekiştirmeli öğrenmede başarı sinyali |

@@ -180,3 +180,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.27376,2026-11-25,Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training,cs.LG,30,ozetler/2026/11/2026-11-25.md
 2611.30898,2026-11-25,World Models as Native Latent Action Models,cs.LG,24,ozetler/2026/11/2026-11-25.md
 2611.30207,2026-11-25,What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym,cs.AI;cs.LG,17,ozetler/2026/11/2026-11-25.md
+2611.25403,2026-11-26,Antom 3-in-1 Transformer: A Payment Foundation Model,cs.LG,103,ozetler/2026/11/2026-11-26.md
+2611.32884,2026-11-26,Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe,cs.AI,96,ozetler/2026/11/2026-11-26.md
+2611.30634,2026-11-26,Rewirable Circuits in Transformers with Loom Attention,cs.LG,86,ozetler/2026/11/2026-11-26.md
+2611.30962,2026-11-26,Self-Evolving Evaluation Environments for Computer-Use Agents,cs.AI;cs.CV,47,ozetler/2026/11/2026-11-26.md
+2611.33010,2026-11-26,Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies,cs.CV;cs.AI;cs.RO,27,ozetler/2026/11/2026-11-26.md
