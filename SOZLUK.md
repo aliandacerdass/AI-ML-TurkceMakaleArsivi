@@ -104,6 +104,7 @@
 | looped model | döngülü model | Aynı katmanları döngü içinde tekrar çalıştıran model |
 | loss function | kayıp fonksiyonu | |
 | low-rank adapter (LoRA) | düşük ranklı adaptör | Ağırlıklara düşük ranklı bir ek öğrenen hafif ince ayar yöntemi |
+| majority voting | çoğunluk oylaması | Bağımsız çözümlerden en sık çıkan cevabı seçme |
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | memory | bellek | Ajanın oturumlar arası sakladığı bilgi |
 | memory traffic | bellek trafiği | Hesaplama sırasında bellekten okunan ve belleğe yazılan veri miktarı |
@@ -167,6 +168,7 @@
 | rubric | puanlama ölçütü | Değerlendirmede kullanılan koşul listesi |
 | scaling law | ölçekleme yasası | |
 | second-order optimizer | ikinci mertebe optimize edici | Eğrilik bilgisini de kullanan optimize edici |
+| self-consistency | öz-tutarlılık | Birden çok bağımsız çözüm üretip cevaplar arasında uzlaşma arama |
 | self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | self-evolution | öz-evrim | Modelin kendi ürettiği veriyle tur tur gelişmesi |
 | self-rewriting | öz-yeniden yazma | Modelin kendi ağırlıklarını kendi akıl yürütmesiyle düzenlemesi |

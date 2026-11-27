@@ -185,3 +185,7 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2611.30634,2026-11-26,Rewirable Circuits in Transformers with Loom Attention,cs.LG,86,ozetler/2026/11/2026-11-26.md
 2611.30962,2026-11-26,Self-Evolving Evaluation Environments for Computer-Use Agents,cs.AI;cs.CV,47,ozetler/2026/11/2026-11-26.md
 2611.33010,2026-11-26,Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies,cs.CV;cs.AI;cs.RO,27,ozetler/2026/11/2026-11-26.md
+2611.34575,2026-11-27,Sage-Med: Scaling Medical Multimodal Intelligence,cs.CV;cs.AI,90,ozetler/2026/11/2026-11-27.md
+2611.34923,2026-11-27,Mixture-of-Loops Transformer,cs.LG;cs.CL,65,ozetler/2026/11/2026-11-27.md
+2611.34466,2026-11-27,EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts,cs.AI,19,ozetler/2026/11/2026-11-27.md
+2611.30965,2026-11-27,Beyond Self-Consistency: Recursive Self-Improvement at Test Time,cs.CL;cs.AI;cs.LG,15,ozetler/2026/11/2026-11-27.md
