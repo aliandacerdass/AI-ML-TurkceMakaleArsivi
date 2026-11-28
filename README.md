@@ -5,15 +5,15 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
+- [28 Kasım 2026](ozetler/2026/11/2026-11-28.md) · Haftalık özet · Haftanın Özeti
 - [27 Kasım 2026](ozetler/2026/11/2026-11-27.md) · Günlük · 4 makale
 - [26 Kasım 2026](ozetler/2026/11/2026-11-26.md) · Günlük · 5 makale
 - [25 Kasım 2026](ozetler/2026/11/2026-11-25.md) · Günlük · 5 makale
 - [24 Kasım 2026](ozetler/2026/11/2026-11-24.md) · Günlük · 4 makale
 - [23 Kasım 2026](ozetler/2026/11/2026-11-23.md) · Günlük · 5 makale
 - [22 Kasım 2026](ozetler/2026/11/2026-11-22.md) · Derin okuma · Derin Okuma: On the Design of Hyper-Connections: Simplification, Stability, and Scalability
-- [21 Kasım 2026](ozetler/2026/11/2026-11-21.md) · Haftalık özet · Haftanın Özeti
 
-Son başarılı çalışma: **26 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **27 Kasım 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?
